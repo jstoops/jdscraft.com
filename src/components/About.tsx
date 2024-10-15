@@ -3,8 +3,8 @@ export default function About() {
     <section className="resume-section" id="about">
       <div className="resume-section-content">
         <h1 className="mb-0">
-          Saurabh
-          <span className="text-primary">Native</span>
+          JDS
+          <span className="text-primary">Craft</span>
         </h1>
         <div className="subheading mb-5">IT Consultant</div>
         <p className="lead mb-5">
