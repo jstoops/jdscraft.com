@@ -5,45 +5,45 @@ export default function Skills() {
         <div className="resume-section-content">
           <h2 className="mb-5">Skills</h2>
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Programming Languages, Platforms &amp; Tools
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fab fa-html5" />
+              <i className="fab fa-aws" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-css3-alt" />
+              <img src="img/snowflake-bug-logo.png" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-js-square" />
+            <img src="img/databricks-logo.png" />
+            </li>
+            <li className="list-inline-item">
+            <img src="img/mulesoft-logo.png" />
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-node-js" />
+              <i className="fab fa-python" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass" />
+              <i className="fab fa-java" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-wordpress" />
+              <i className="fab fa-js" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-grunt" />
+            <img src="img/c-programming-language-logo-microsoft.png" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-npm" />
+            <img src="img/mongodb-logo.png" />
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-jira" />
             </li>
           </ul>
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
-            <li>
-              <span className="fa-li">
-                <i className="fas fa-check" />
-              </span>
-             Mobile-First, Responsive Design
-            </li>
             <li>
               <span className="fa-li">
                 <i className="fas fa-check" />
@@ -60,7 +60,7 @@ export default function Skills() {
               <span className="fa-li">
                 <i className="fas fa-check" />
               </span>
-              Agile Development &amp; Scrum
+              Agile Development, Kanban &amp; Scrum
             </li>
           </ul>
         </div>

@@ -456,6 +456,13 @@ mark,
   margin-right: 0.5rem;
 }
 
+.list-inline-item img {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -.125em;
+}
+
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
