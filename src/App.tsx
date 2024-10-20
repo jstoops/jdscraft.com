@@ -5,7 +5,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import Awards from './components/Awards'
+import Interests from './components/Interests'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Education />
         <Skills />
         <Projects />
-        <Awards />
+        <Interests />
       </div>
     </div>
     </>

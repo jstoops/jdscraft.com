@@ -10,11 +10,16 @@ export default function About() {
         <p className="lead mb-5">
           I am experienced in building and architecting enterprise level
           software in the cloud, leading, mentoring and developing agile
-          development teams, and aligning business and IT strategies in
-          technology and architectural roadmaps. I specialize in leading
-          large companies IT departments in transforming their aging IT
-          infrastructure and outdated software development practices
-          into modern technology, design principles and AI.
+          development teams, and aligning business and IT strategies with
+          technology and architectural roadmaps.
+        </p>
+        <p className="lead mb-5">
+           I specialize in leading IT departments through transforming
+           their aging IT infrastructure and outdated software development
+           practices into cost-effective IT departments using modern
+           technology, engineering practices and design principles aligned
+           with the business and IT strategic objectives, and optimized
+           development processes enhanced with GenAI.
         </p>
         <div className="social-icons">
           <a
