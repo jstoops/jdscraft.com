@@ -25,15 +25,15 @@ export default function Experience() {
                 data-first strategy.
               </p>
               <p>
-              I have developed good relationships with IT leaders at HA and
-              continually strive to improve our development processes, quality,
-              IT security, reduce development time/costs, and increase service
-              reliability. Working as a technical leader and the Software
-              Development Engineer (SDE) job family sponsor at HA has enabled
-              me to do this by collaborating with other IT departments to
-              effect change, build and lead a highly productive team through
-              highly effective hiring and coaching processes, and leverage
-              modern technology and design practices.
+                I have developed good relationships with IT leaders at HA and
+                continually strive to improve our development processes, quality,
+                IT security, reduce development time/costs, and increase service
+                reliability. Working as a technical leader and the Software
+                Development Engineer (SDE) job family sponsor at HA has enabled
+                me to do this by collaborating with other IT departments to
+                effect change, build and lead a highly productive team through
+                highly effective hiring and coaching processes, and leverage
+                modern technology and design practices.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -99,7 +99,8 @@ export default function Experience() {
               </p>
               <ul>
                 <li>
-                  <b>Payments Team:</b> Within the first couple of months had turned the
+                  <b>HawaiianAirlines.com E-commerce Payments Team:</b> Within the first
+                  couple of months od starting at Hawaiian Airlines I had turned the
                   Payment team around from fixing bugs 90% of the time to just working on
                   new features by refactoring all the code to achieve 100+% unit test
                   coverage to detect regression issues with any changes made before
@@ -134,6 +135,7 @@ export default function Experience() {
                 Running my own software development company working as a contractor annd IT
                 consultant for various clients, including:
               </p>
+              <p>Projects:</p>
               <ul>
                 <li>
                   <b>IT Consultant for Reid Industries and Rain or Shine Solutions:</b> 
@@ -181,23 +183,14 @@ export default function Experience() {
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
-              <h3 className="mb-0">.NET Programmer / ETL Developer</h3>
+              <h3 className="mb-0">C# .NET Programmer / ETL Developer</h3>
               <div className="subheading mb-3">Child Action, Inc.</div>
               <p>
                 Part of a small team responsible for providing technical support, system
                 maintenance and enhancement services using an agile development approach, writing
-                user stories and striving to improve efficiency in the organization by applying
-                Lean software development principles.
-              </p>
-              <p>
-                I was tasked to come up with ways to integrate the various software products
-                developed for each department and improve communications between those departments.
-                By really analyzing what every department was doing and finding new ways to work
-                together more efficiently, I was able to not only streamline the business process
-                but also made it possible for the development team to design the foundation for an
-                integrated software system by developing an appropriate software architecture and
-                consolidating the various databases, including developing a project plan and ETL
-                script for a unified system.
+                user stories and striving to improve efficiency in the organization by developing
+                an appropriate software architecture and consolidating the various databases, 
+                including developing a project plan and ETL scripts for a unified system.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -208,7 +201,7 @@ export default function Experience() {
             <div className="flex-grow-1">
               <h3 className="mb-0">Director of Engineering</h3>
               <div className="subheading mb-3">Videomaker, Inc.</div>
-              <p>
+              <p> 
                 I supported Videomaker by providing a reliable technical infrastructure and
                 overseeing development efforts for their website, mobile apps, third-party
                 integrations, and internal tools. It was a leadership role that required innovative
@@ -252,7 +245,7 @@ export default function Experience() {
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
-              <h3 className="mb-0">Systems Analyst / Solution Architect / .NET Technical Lead</h3>
+              <h3 className="mb-0">Systems Analyst / Architect / Technical Lead / C# .NET Programmer / ETL Developer</h3>
               <div className="subheading mb-3">Tetra Tech, Inc.</div>
               <p>
                 Led the analysis and design for U.S. Environment Protection Agency (USEPA), U.S. Navy,
@@ -296,9 +289,242 @@ export default function Experience() {
                 each release of the software to various parties for enhancements and hot fixes, and as well
                 as creating software maintenance documentation for developers and DBAs.
               </p>
+              <p>Projects:</p>
               <ul>
                 <li>
-                  <b>Project:</b> Project description.
+                  <b>
+                    Water Quality Monitoring (WQM) Data Flow System for Texas Commission on Environmental
+                    Quality (TCEQ):
+                  </b> led the analysis effort gathering requirements and designed data flow system using UML
+                  diagrams to communicate behavior, architecture, and realization of components implemented
+                  in Java. Used a model and test-driven approach in line with unified process (UP) and agile
+                  practices to manage development effort and comprehensive test strategy. The Surface Water
+                  Quality Monitoring System (SWQMIS) is used to enter Water Quality Management (WQM) data in
+                  an Oracle database that is submitted to USEPA’s Central Data Exchange (CDX) system via Web
+                  services in XML format conforming to a specific set of CDX compliant XML schemas and data
+                  validation rules. Also, part of the team responsible for updating design documentation and
+                  testing SWQMIS, utilizing Sparx Enterprise Architect tool to reverse engineer the Java code
+                  into UML class diagrams and other tools to create entity-relationship diagrams (ERDs) from
+                  the Oracle database schema.
+                </li>
+                <li>
+                  <b>Coral Triangle Initiative (CTI) for USAID:</b> technical lead and developer planning,
+                  designing and building SharePoint application used in the Philippines to collaborate on
+                  various initiatives to protect coral reefs. Includes custom Web part using Google Maps and
+                  a backend Geographic Information System (GIS) using ArcGIS Server for spatially-enabled
+                  project information, a custom Web part to replace SharePoint’s document library for more ease
+                  of use and publishing documents to other sites and Microsoft SQL Server. Created SQL Server
+                  Reporting Services (SSRS) reports using Web services to pull data from SharePoint lists.
+                </li>
+                <li>
+                  <b>ALA-WADR for Alabama State:</b> C# .NET developer adding functionality to existing
+                  multi-tier ASP.NET application for collecting and analyzing fish and macroinvertebrate samples.
+                </li>
+                <li>
+                  <b>Dynamic Document System (DDS) for Naval Facilities Engineering Command (NAVFAC):</b> Systems
+                  Analyst, Business Workflow Developer, and C# .NET Developer on project customizing enterprise DMS
+                  using Laserfiche with custom business process applied for developing the US Navy Marine Resource
+                  Assessments (MRA) document and extensible content types for other documents.
+                </li>
+                <li>
+                  <b>Forest Information Management (FIMS) for Camp Leijune and Marine Corp:</b> Systems Analyst,
+                  Technical Lead and C# Developer on the system developed using ASP.NET, .NET Framework 3.5 with
+                  ASP.NET MVC and LINQ to SQL to provide object-relational mapping (O/RM) of the SQL Server 2005
+                  database. Reports developed using SSIS. The FIMS app accepts entry of forest inventory data
+                  collected from the base's forests and calculates forest product metrics available as reports.
+                </li>
+                <li>
+                  <b>
+                    SharePoint Intranet for Tetra Tech’s Information Technology and Modeling Services Group
+                    (ITMSG):
+                  </b> technical lead implementing the office’s Intranet site built using Microsoft Office
+                  SharePoint Server 2007 (MOSS 2007) which includes documents libraries, Wikis for knowledge
+                  bases, custom views of lists using Web services, custom XML and XSLT data views, and custom
+                  workflows for projects. Techncial Lead and developer planning, designing, building, and
+                  administrating SharePoint site and subsites.
+                </li>
+                <li>
+                  <b>
+                    eNOI eReporting for United States Environment Protection Agency (USEPA) Office of Waste
+                    Management (OWM):
+                  </b> lead analyst and designer for the eReporting module which is part of the eNOI system -
+                  online electronic permit application system. eNOI allows construction site operators to apply
+                  for coverage under EPA’s NPDES stormwater Construction General Permit (CGP) and for industrial
+                  facilities covered by EPA’s Multi-Sector General Permit (MSGP). The requirements were gathered
+                  in JAD sessions with key stakeholders and users, and analyzed using various agile and Unified
+                  Process (UP) compatible techniques to design business process workflow, use cases and scenarios,
+                  logical data models and documentation of non-functional requirements. The design was documented
+                  in the form of diagrams compliant with latest UML. Ensured electronic signatures and permit
+                  encryption complied with Cross-Media Electronic Reporting Rule (CROMERR) check list standards.
+                </li>
+                <li>
+                  <b>
+                    Check-Up Program for Small Systems (CUPSS) for USEPA Office of Ground Water and Drinking Water
+                    (OGWDW):
+                  </b> selected appropriate technology and system architecture through proof-of-concept studies for
+                  multi-platform, free asset management tool. Lead tester and configuration manager for the build
+                  phase of CUPSS desktop application that’s an electronic mechanism for tracking and planning basic
+                  facility operations, maintenance activities and long-term asset management. CUPSS provides asset
+                  inventory, planning and preventive maintenance and financial planning components for small
+                  drinking water utilities. The test plan includes the testing strategies, test cases, and expected
+                  results used to test system and extensive code reviews meeting federal agency standards.
+                </li>
+                <li>
+                  <b>Comment-Response System (CRS) for the Department of Energy (DOE):</b> functional lead and
+                  configuration manager for system that manages the comment-response process and generates scoping
+                  reports and environmental impact statements (EIS). The SDLC followed an approved set of processes
+                  that ensure quality in the development of the system and the Sparx Enterprise Architect tool was
+                  used to document design that met strict quality assurance (QA) procedures during the DOE audit.
+                </li>
+                <li>
+                  <b>
+                    alifornia Water Quality Assessment (CalWQA) System for State Water Resources Control Board
+                    (SWRCB):
+                  </b> lead analyst and designer for system that collects lines of evidence (LOE) on water body
+                  impairments in the state of California. Allows regional boards to make decisions on LOE for SWRCB
+                  and USEPA to approve and create 303(d) and 305(b) listings for public and USEPA Integrated Report.
+                </li>
+                <li>
+                  <b>California Integrated Water Quality System (CIWQS) for USEPA:</b> responsible for gathering
+                  business requirements from EPA and various water boards in California. Then translated requirements
+                  into designs for developers and database administrators (DBAs) to create Web-based reports from WQM
+                  data held in CIWQS using Java, PL/SQL and Oracle.
+                </li>
+              </ul>
+            </div>
+            <div className="flex-shrink-0">
+              <span className="text-primary">July 2006 - July 2010</span>
+            </div>
+          </div>
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="flex-grow-1">
+              <h3 className="mb-0">C# .NET Programmer</h3>
+              <div className="subheading mb-3">Confi-Chek, Inc.</div>
+              <p>
+              Performed business analysis and software design using CASE tool for creating UML diagrams to communicate
+              with business managers and other developers in line with the eXtreme Programming (XP) process. Implemented
+              in C#, ASP.NET, SQL Server, SQL Reporting Services, and Indigo/WCF.
+              </p>
+              <ul>
+                <li>
+                  <b>Public record search platform:</b> Redesigned overall architecture, enhanced search functionality, and
+                  added visitor tracking for multiple Web sites providing public records search capabilities using C#,
+                  ASP.NET, and Web Services. Sites targeted different audiences, such as public searching for friends and
+                  companies needing background checks on employees, hence need for common application framework and multiple
+                  front-ends. System met current design standards and used latest technology by utilizing design patterns
+                  like Model-View-Controller (MVC) and Indigo messaging framework (now known as the MS Windows Communications
+                  Foundation- WCF). Innovative use of WCF combined with AJAX for providing search-as-you-type results.
+                </li>
+                <li>
+                  <b>E-marketing Web tool:</b> designed and implemented system in ASP.NET and MS SQL Server with advanced sales
+                  tracking integrated with front-end public records search sites. Enabled staff to create email marketing
+                  campaigns that automatically send custom-branded emails, newsletters, offers and discounts to prospects and
+                  existing customers by intelligently selecting relevant promotions based on visitor tracking data and past
+                  purchases. Significantly increased revenue for Confi-Chek, Inc. within 3 months of launching first email
+                  marketing campaign by tapping into previous customers with targeted emails and product offers.
+                </li>
+              </ul>
+            </div>
+            <div className="flex-shrink-0">
+              <span className="text-primary">September 2005 - July 2006</span>
+            </div>
+          </div>
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="flex-grow-1">
+              <h3 className="mb-0">Technical Director / Developer</h3>
+              <div className="subheading mb-3">Koala Tree, LLC</div>
+              <p>
+                Running my own software development company doing my ownh bookkeeping and accounting. Worked as a contractor for
+                various government and commercial contracts, including:
+              </p>
+              <ul>
+                <li>
+                  <b>Waste Recycling Web site for European (EU) Environment Agency (EA):</b> lead analyst, designer and .NET
+                  developer responsible for producing detailed design documentation (including UML diagrams) and development
+                  plans for system allowing businesses to search for waste recycling facilities in their area. The system was
+                  created for Agricultural Waste Stakeholders’ Forum that included the Department for the Environment, Food and
+                  Rural Affairs (DEFRA), UK EA, National Farmers Union, and other organizations from which requirements were
+                  gathered. I implemented the multi-tier website with ASP.NET, VB.NET, and SQL Server.
+                </li>
+                <li>
+                  <b>Remas for EU EA:</b> Web developer for system used to analyze environmental data using graphs. Wrote
+                  detailed user guides and implemented in Microsoft Active Server Pages (ASP), Crystal Reports 10 and Microsoft
+                  Access XP. This project required careful negotiation in meetings and pacifying a disgruntled client that I
+                  achieved within a few weeks of taking over project by being honest with timelines and understanding to problems
+                  the client had encountered with first version. Then followed through by producing a quality system that met and
+                  exceeded the client’s needs and expectations.
+                </li>
+                <li>
+                  <b>Landcare UK for UK EA:</b> Web developer for land management best practices site that met accessibility
+                  guidelines, adhering to not only the UK Web Content Accessibility Guidelines (WCAG) Level AAA, which is the
+                  highest level of web accessibility conformance, but also compliance with United States section 508 of the
+                  Rehabilitation Act of 1973 and the Americans with Disabilities Act (ADA). Developed using HTML, CSS2, ASP
+                  and Microsoft Access.
+                </li>
+                <li>
+                  <b>Greenerfutures for the Peterborough Environment City Trust:</b> webiste that provided analysis of key
+                  stage 1 & 2 data on their education portal using JavaServer Pages (JSP) and MySQL.
+                </li>
+                <li>
+                  <b>Stock exchange utility for Regisdata:</b> updated stock quotations on daily basis and exported specified
+                  fields to be uploaded to website and sent to clients. Automating file creation from Microsoft Access database
+                  was achieved using Visual Basic for Applications (VBA), also detected spikes in data by comparing two files.
+                </li>
+                <li>
+                  <b>Listencloser music portal:</b> my own custom built online portal that provided free web pages, audio
+                  streaming and online promotion for bands, DJ’s and solo artist of all music genres and trained staff in website
+                  development and to administer it, validate HTML code, and meeting accessibility guidelines. Trained bands and
+                  DJs to use Cakewalk digital audio workstation (DAW) software package to practice recording and mixing themselves
+                  for a single to be recorded in a studio then promoted and sold as a music CD and downloaded with digital rights
+                  management software used to lock download after 3 free plays unless purchased. Provided VJ (Visual Jockey)
+                  services at concerts mixing in live and prerecorded visualizations at shows using projectors, AI to synchronize
+                  visuals with music and visualization software. Provided accounting services for bands. Trained staff to record
+                  and VJ. Designed album covers and performed bookkeeping services for bands.
+                </li>
+              </ul>
+            </div>
+            <div className="flex-shrink-0">
+              <span className="text-primary">January 2003 - September 2005</span>
+            </div>
+          </div>
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="flex-grow-1">
+              <h3 className="mb-0">Chief Programming Officer (CPO)</h3>
+              <div className="subheading mb-3">Nuera Ltd.</div>
+              <p>
+                Provided all training, support, website, custom software, Intranet, and Web script development services for the
+                company and to their clients, including:
+              </p>
+              <ul>
+                <li>
+                  <b>Public Web site for the <a href="https://www.edenproject.com/" target="_blank">Eden Project</a>:</b> worked
+                  with Technical Director to set up Reddot Content Managment System (CMS) for users to manage public Web site
+                  and used ASP, Access and  JavaScript to implement custom education games to entertain children coming onsite
+                  for a school trip or with the family.
+                </li>
+                <li>
+                  <b>Intranet Web site for the <a href="https://www.edenproject.com/" target="_blank">Eden Project</a>:</b> Web
+                  developer and back-office system integrator using ASP, Access, and MS Office automation (Word). Compared and
+                  recommended best existing CRM and Knowledge Management Solutions (KMS) available but client chose a custom
+                  document and event management system, along with a phonebook/contact system with all staff and Eden Project
+                  contacts made available over company network. Trained staff and wrote user documentation.
+                </li>
+                <li>
+                  <b>NeuQuote Web site for Nuera, Inc.:</b> staff configures available online marketing services for resellers
+                  and clients to select, enter monthly marketing budgets and generate a custom quotation online or in PDF to
+                  print and turn into an invoice. Designed to be database agnostic and works with MySQL, MS Access, SQL Server,
+                  dBase, and PostgreSQL. System implemented using PHP, MySQL and designed in UML.
+                </li>
+                <li>
+                  <b>Web site review desktop application for Bishop Fleming and UK Online:</b> initially developed for Nurea Ltd.
+                  as a contrtactor before becoming a full-time employee (see experience below) then updated for accountant’s
+                  Bishop Fleming and UK Online to include the latest recommendations in meeting accessibility guidelines and
+                  various government directives, i.e. <a href="https://www.legislation.gov.uk/uksi/2002/2013/contents" target="_blank">The Electronic Commerce (EC Directive) Regulations 2002</a>.
+                </li>
+                <li>
+                  Other projects include creation of custom scripts for Star Internet complex form registration process, event
+                  management system for Cornwall Arts Center Trust (ACT), custom CMS for CESA foreign language courses website,
+                  and search engine optimization (SEO) services.
                 </li>
               </ul>
             </div>

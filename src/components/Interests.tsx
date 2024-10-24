@@ -11,10 +11,10 @@ export default function Interests() {
           board games, and cycling trails.
         </p>
         <p className="mb-0">
-          When forced indoors, I follow a number of sci-fi and fantasy genre
-          movies and television shows, I am an aspiring blogger, and I spend a
-          large amount of my free time exploring the latest technology
-          advancements in the data and software development world.
+          I follow a number of sci-fi and fantasy genre movies and television 
+          shows, reading fantasy and science fiction, and I spend a large
+          amount of my free time exploring the latest technology advancements
+          in the data and software development world.
         </p>
       </div>
     </section>
