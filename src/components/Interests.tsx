@@ -5,10 +5,10 @@ export default function Interests() {
       <div className="resume-section-content">
         <h2 className="mb-5">Interests</h2>
         <p>
-          Apart from being an IT nerd, I enjoy running and playing TTRPGs with
-          my friends, terrain building and miniature painting for TTRPGs, 3D
-          printing, playing computer games, modding computer games, playing
-          board games, and cycling trails.
+          Apart from being an IT nerd, I enjoy running and playing tabletop
+          role-playing games (TTRPGs) with my friends, terrain building and
+          miniature painting for TTRPGs, 3D printing, playing computer games,
+          modding computer games, playing board games, and cycling trails.
         </p>
         <p className="mb-0">
           I follow a number of sci-fi and fantasy genre movies and television 

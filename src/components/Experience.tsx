@@ -7,7 +7,7 @@ export default function Experience() {
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h3 className="mb-0">Director, IT – Data & Common Services</h3>
-              <div className="subheading mb-3">Hawaiian Airlines, Inc.</div>
+              <div className="subheading mb-3">Hawaiian Airlines, Inc. / Alaska Airlines, Inc.</div>
               <p>
                 Accountable for implementing a shared services strategy across all
                 of HA IT for our integration, data, and analytics platforms.
@@ -35,6 +35,33 @@ export default function Experience() {
                 highly effective hiring and coaching processes, and leverage
                 modern technology and design practices.
               </p>
+              <p>
+                <b>Flight Data Mart (FDM) Retirement:</b> Retire legacy FDM
+                enterprise data warehouse (EDW) to reduce operational costs
+                and non-labor IT budget. Technology to retire: Microsoft SQL
+                Server, SQL Server Integration Services (SSIS), Crystal Reports,
+                Microsoft Orchastrator.
+              </p>
+              <ul>
+                <li>
+                  <b>Operational Processes:</b> I led the various workstreams
+                  to intergrate the the operational processes with the modern
+                  API, ingestion pipeline, enterprise service bus (ESB), and
+                  operation data store (ODS) data stack. Technology: MuleSoft
+                  apps, S3, AWS SNS, AWS SQS, ActiveMQ, Anypoint MQ, MongoDB.
+                </li>
+                <li>
+                  <b>Analytics Data:</b> Re-engineer the flight data ingestion
+                  pipelines to feeds the data analytics stack. Technology:
+                  Snowflake, Airflow, python, DBT.
+                </li>
+                <li>
+                  <b>Consumption:</b> Provide operation dashboards of
+                  near-realtime data, data visualization, and tools for analysis
+                  of historical data. Technology: Angular, MuleSoft Apps, MongoDB,
+                  Snowflake, DBT, Tableau.
+                </li>
+              </ul>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">July 2023 - Present</span>
@@ -55,6 +82,7 @@ export default function Experience() {
                 and onboarding programs for SDE job family, retain employees, and
                 guide other IT teams on best practices in development and design.
               </p>
+              <p>Projects:</p>
               <ul>
                 <li>
                   <b>SSCI:</b> Led the team designing and developing the services that
@@ -529,41 +557,103 @@ export default function Experience() {
               </ul>
             </div>
             <div className="flex-shrink-0">
-              <span className="text-primary">FromMonth YYYY - ToMonth YYYY</span>
+              <span className="text-primary">February 2001 - July 2003</span>
             </div>
           </div>
+          <p>
+            Note: I traveled United States and Europe for 8 months after Industrial Placement (see Education) then completed the
+            final year of my Bachelor’s degree program, hence the 1 year gap in employment history.
+          </p>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
-              <h3 className="mb-0">Title</h3>
-              <div className="subheading mb-3">Company</div>
+              <h3 className="mb-0">IT Technician</h3>
+              <div className="subheading mb-3">Express Personnel</div>
               <p>
-                Job description
+                Various IT-related contracts as part of my Industrial Placement required for the British Computer Society
+                accreditation of the B.S. (Hons), Software Engineering Management degree.
               </p>
               <ul>
                 <li>
-                  <b>Project:</b> Project description.
+                  <b>InterStar Networking Services:</b> developed routines in PERL to automate the setup of server-side
+                  services. Then integrated with existing server-side routines and the Internet Servicve Provider’s (ISP’s)
+                  accounting system. Helped save server administrator time by allowing services to be set up, and
+                  instantiated, from ISP accounting system automatically by sending a request to the Web server. This meant
+                  no manual intervention, which eliminated problems due to missing, incomplete, or inaccurate service set
+                  up. Automated ISP services included: website storage space, POP and other e-mail accounts, DNS aliases and
+                  many more.
+                </li>
+                <li>
+                  <b>ISP Accounting Aystem:</b> there were known bugs in existing system used for tracking customer accounts,
+                  services and automated billing. Fixed all known bugs along with other issues found in logic of SQL and
+                  functionality of some screens. Extra functionality and managerial querying added, including set up of
+                  invoicing via postal system and email, more intuitive filtering system for intelligent querying and others
+                  to make the Office Manager’s job more efficient. Used VB6, Access, Crystal Reports, a custom file template
+                  to specify the layout, format, variables and text of email invoices and statements.
+                </li>
+                <li>
+                  <b>North Valley Bank Website:</b> worked with head Graphic Designer to develop site in FrontPage. This
+                  included several meetings with the Managing Director and Branch Executive over lunch to discuss site’s
+                  purpose. Being a major customer, it was also desirable to enquire on any improvements that can be made to
+                  InterStar’s services, thus getting idea for redesigning monthly statements and set up of invoicing on ISP
+                  accounting system.
+                </li>
+                <li>
+                  <b>E-commerce Site Debug and Graphic Design:</b> used Cold Fusion to debug and correct problems in existing
+                  site and add extra functionality.
+                </li>
+                <li>
+                  Developed some graphics and simple animations for sites being working on. Used Abode’s Photoshop and Corel
+                  Draw to create these images.
+                </li>
+                <li>
+                  Checked accounting company’s computers were year 2000 (Y2K) compliant.
                 </li>
               </ul>
             </div>
             <div className="flex-shrink-0">
-              <span className="text-primary">FromMonth YYYY - ToMonth YYYY</span>
+              <span className="text-primary">May 1999 - August 1999</span>
             </div>
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between">
             <div className="flex-grow-1">
-              <h3 className="mb-0">Title Bottom</h3>
-              <div className="subheading mb-3">Company</div>
+              <h3 className="mb-0">Programmer</h3>
+              <div className="subheading mb-3">Robbins (Marine) Ltd. (Euro Hotel, London)</div>
               <p>
-                Job description
+                This position was part of my Industrial Placement required for the British Computer Society
+                accreditation of the B.S. (Hons), Software Engineering Management degree.
               </p>
-              <ul>
-                <li>
-                  <b>Project:</b> Project description.
-                </li>
-              </ul>
+              <p>
+                Developed custom hotel management and marketing tool used by independent hotels. This was a
+                complete back-office system for receptionists to book rooms (intelligent search suggested
+                best rooms for client type using a custom expert system and fuzzy logic), log information,
+                and track costs incurred (including integration with phone logging systems).
+              </p>
+              <p>
+                The managerial part meant intelligent booking based on past performance, useful graphs and
+                tables on efficient running of hotel and use of advertisements (website brought in majority
+                of guests, especially from abroad).
+              </p>
+              <p>
+                Printing, faxing and e-mailing incorporated to save time for receptionists. A highly
+                selective mailing list was developed to pinpoint key customers, which could automatically
+                email, fax or print out newsletters to send to previous guests.
+              </p>
+              <p>
+                Separate database to store all valid UK postcodes to date (loaded via a CD received each
+                month) meant as receptionist enters a guest’s postcode address appears and house number is
+                all that is required to complete address.
+              </p>
+              <p>
+                Call logging system data stream received from switchboard analyzed to gain knowledge of
+                interface between switchboards and PC. Call logging data used to bill guests and itemize
+                hotel’s outgoing calls by incorporating it into system database via ActiveX control for
+                receiving external ANSII streams. Unique format of call logging system data streams
+                stored in Comma Separated Variables (CSV) type files to integrate with other hotels using
+                system.
+              </p>
             </div>
             <div className="flex-shrink-0">
-              <span className="text-primary">FromMonth YYYY - ToMonth YYYY</span>
+              <span className="text-primary">July 1998 - April 1999</span>
             </div>
           </div>
         </div>

@@ -1,4 +1,12 @@
+function calculateYears(startDate) {
+  const today = new Date();
+  const pastDate = new Date(startDate);
+  return today.getFullYear() - pastDate.getFullYear();
+}
+
 export default function About() {
+  const dateString = '1998-7-1';
+  const year = calculateYears(dateString);
   return (
     <section className="resume-section" id="about">
       <div className="resume-section-content">
@@ -7,6 +15,9 @@ export default function About() {
           <span className="text-primary">Craft</span>
         </h1>
         <div className="subheading mb-5">IT Consultant</div>
+        <p className="lead mb-5">Over {year} years in IT developing technical
+          solutions and over 8 years experience as an IT leader at Hawaiian
+          Airlines (now Alaska Airlines).</p>
         <p className="lead mb-5">
           I am experienced in building and architecting enterprise level
           software in the cloud, leading, mentoring and developing agile

@@ -48,19 +48,31 @@ export default function Skills() {
               <span className="fa-li">
                 <i className="fas fa-check" />
               </span>
-              MERN Stack development &amp; Debugging
+              MERN (MongoDB, Express, React, and Node) Stack Development &amp; Debugging
             </li>
             <li>
               <span className="fa-li">
                 <i className="fas fa-check" />
               </span>
-              Cross Functional Teams
+              Cross Functional Teams and Matrix IT Organizations
             </li>
             <li>
               <span className="fa-li">
                 <i className="fas fa-check" />
               </span>
-              Agile Development, Kanban &amp; Scrum
+              Agile Development, LEAN, Kanban &amp; Scrum
+            </li>
+            <li>
+              <span className="fa-li">
+                <i className="fas fa-check" />
+              </span>
+              Extreme Programming (XP), Test-Driven Development (TDD), Refactoring, Continuous Integration & Continuous Delivery (CI/CD)
+            </li>
+            <li>
+              <span className="fa-li">
+                <i className="fas fa-check" />
+              </span>
+              Iterative approach to the Unified Process (UP)
             </li>
           </ul>
         </div>
