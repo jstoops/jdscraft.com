@@ -160,7 +160,7 @@ export default function Experience() {
               <h3 className="mb-0">Technical Director / Developer / Solution Architect</h3>
               <div className="subheading mb-3">Development Integrity, LLC</div>
               <p>
-                Running my own software development company working as a contractor annd IT
+                Running my own software development company working as a contractor and IT
                 consultant for various clients, including:
               </p>
               <p>Projects:</p>
@@ -198,8 +198,8 @@ export default function Experience() {
                 </li>
                 <li>
                   <b>Technical Director for LeafDev:</b> Managing technical department and
-                  training/mentoring the recently hired General Manager to take over the daily
-                  running the company that specializes in building custom websites using
+                  training/mentoring the recently hired General Manager to take over the day-to-day
+                  running of the company that specializes in building custom websites using
                   various content management systems (CMS) like Joomla, Drupal and WordPress,
                   providing search engine optimization (SEO) services, and e-commerce solutions.
                 </li>
