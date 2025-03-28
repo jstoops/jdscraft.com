@@ -181,6 +181,21 @@ export default function Projects() {
                     />
                   )}
                 </Item>
+                <Item
+                  caption='AI Agent Usage and Cost Tracking'
+                  original='img/AI-Agent-Usage-Cost-Tracking.jpg'
+                  thumbnail='img/AI-Agent-Usage-Cost-Tracking.jpg'
+                  width='971'
+                  height='787'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/AI-Agent-Usage-Cost-Tracking.jpg'
+                    />
+                  )}
+                </Item>
               </Gallery>
               <div className='card-body'>
                 <h5 className='card-title'>AI Agents</h5>
@@ -218,7 +233,8 @@ export default function Projects() {
                 <p>
                   Analyzes stock data using a custom tool with JavaScript code
                   to call an API and producers a report on stock price movements
-                  embedded as a chatbot in a webpage.
+                  embedded as a chatbot with speech-to-text, user feedback &
+                  lead generation capabilities embedded in a webpage.
                 </p>
               </div>
             </div>
