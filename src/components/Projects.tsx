@@ -54,6 +54,43 @@ export default function Projects() {
             >
               <Gallery>
                 <Item
+                  original='img/AI-Voice-Assistant-Webcam-Desktop-Voice.webp'
+                  thumbnail='img/AI-Voice-Assistant-Webcam-Desktop-Voice.webp'
+                  width='1980'
+                  height='1080'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/AI-Voice-Assistant-Webcam-Desktop-Voice.webp'
+                    />
+                  )}
+                </Item>
+              </Gallery>
+              <div className='card-body'>
+                <h5 className='card-title'>AI Voice Assistant</h5>
+                <p>
+                  Allows you to ask questions and get witty, concise answers
+                  about what you're working on using multiple AI models to
+                  convert text-to-speech, speech-to-text, and answer questions
+                  using the images streamed from the webcam and desktop.
+                </p>
+                <a
+                  href='https://github.com/jstoops/ai-voice-assistant'
+                  target='_blank'
+                  className='btn btn-primary'
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div
+              className='card col-md-3 col-12 mx-2 mb-1'
+              style={{ width: '16rem' }}
+            >
+              <Gallery>
+                <Item
                   original='img/Blog-Standard-NextJS-OpenAI.jpg'
                   thumbnail='img/Blog-Standard-NextJS-OpenAI.jpg'
                   width='1980'
