@@ -42,12 +42,12 @@ export default function Experience() {
                 enterprise data warehouse (EDW) to reduce operational costs and
                 non-labor IT budget. Technology to retire: Microsoft SQL Server,
                 SQL Server Integration Services (SSIS), Crystal Reports,
-                Microsoft Orchastrator.
+                Microsoft Orchestrator.
               </p>
               <ul>
                 <li>
                   <b>Operational Processes:</b> I led the various workstreams to
-                  intergrate the the operational processes with the modern API,
+                  integrate the operational processes with the modern API,
                   ingestion pipeline, enterprise service bus (ESB), and
                   operation data store (ODS) data stack. Technology: MuleSoft
                   apps, S3, AWS SNS, AWS SQS, ActiveMQ, Anypoint MQ, MongoDB.
@@ -58,10 +58,10 @@ export default function Experience() {
                   Snowflake, Airflow, python, DBT.
                 </li>
                 <li>
-                  <b>Consumption:</b> Provide operation dashboards of
-                  near-realtime data, data visualization, and tools for analysis
-                  of historical data. Technology: Angular, MuleSoft Apps,
-                  MongoDB, Snowflake, DBT, Tableau.
+                  <b>Consumption:</b> Provide operation dashboards of near
+                  real-time data, data visualization, and tools for analysis of
+                  historical data. Technology: Angular, MuleSoft Apps, MongoDB,
+                  Snowflake, DBT, Tableau.
                 </li>
               </ul>
             </div>

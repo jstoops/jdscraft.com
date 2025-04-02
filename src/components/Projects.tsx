@@ -1,4 +1,10 @@
-import { LangGraph, LangChain, OpenAI, LlamaIndex } from '@lobehub/icons';
+import {
+  LangGraph,
+  LangChain,
+  LangSmith,
+  OpenAI,
+  LlamaIndex,
+} from '@lobehub/icons';
 import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
@@ -26,10 +32,13 @@ export default function Projects() {
               />
             </li>
             <li className='list-inline-item'>
+              <LangChain className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
               <LangGraph className='svg-inline--fa' />
             </li>
             <li className='list-inline-item'>
-              <LangChain className='svg-inline--fa' />
+              <LangSmith className='svg-inline--fa' />
             </li>
             <li className='list-inline-item'>
               <i className='fab fa-node' />
@@ -83,6 +92,68 @@ export default function Projects() {
                 >
                   Github
                 </a>
+              </div>
+            </div>
+            <div
+              id='agent-gallery'
+              className='card col-md-3 col-12 mx-2 mb-1'
+              style={{ width: '14rem' }}
+            >
+              <Gallery withCaption>
+                <Item
+                  original='img/Rental-Investment-Chatbot-3.jpg'
+                  thumbnail='img/Rental-Investment-Chatbot-3.jpg'
+                  width='1489'
+                  height='1229'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      id='first'
+                      ref={ref}
+                      onClick={open}
+                      src='img/Rental-Investment-Chatbot-3.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/Rental-Investment-Chatbot-2.jpg'
+                  thumbnail='img/Rental-Investment-Chatbot-2.jpg'
+                  width='907'
+                  height='842'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Rental-Investment-Chatbot-2.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/Rental-Investment-Chatbot-1.jpg'
+                  thumbnail='img/Rental-Investment-Chatbot-1.jpg'
+                  width='1696'
+                  height='1070'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Rental-Investment-Chatbot-1.jpg'
+                    />
+                  )}
+                </Item>
+              </Gallery>
+              <div className='card-body'>
+                <h5 className='card-title'>
+                  Rental Investment Chatbot AI Agent Chatbot
+                </h5>
+                <p>
+                  This RAG chatbot uses a local LLM to embed a document on
+                  rental investing in a vector database and then a conversation
+                  QA chain to answer questions using it and embedded in
+                  PropertyPulse.
+                </p>
               </div>
             </div>
             <div
