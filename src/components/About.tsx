@@ -39,7 +39,7 @@ export default function About() {
           <li>leading the transformation of IT organizations</li>
           <li>developing high performing technical teams</li>
           <li>
-            integraing AI into development, operations, and business processes
+            integrating AI into development, operations, and business processes
           </li>
           <li>
             embracing disruptive technologies, managing innovations, and
