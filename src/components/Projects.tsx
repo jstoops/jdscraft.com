@@ -2,8 +2,15 @@ import {
   LangGraph,
   LangChain,
   LangSmith,
-  OpenAI,
   LlamaIndex,
+  OpenAI,
+  Claude,
+  Gemini,
+  DeepSeek,
+  Anthropic,
+  Dalle,
+  Qwen,
+  HuggingFace,
 } from '@lobehub/icons';
 import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
@@ -41,6 +48,9 @@ export default function Projects() {
               <LangSmith className='svg-inline--fa' />
             </li>
             <li className='list-inline-item'>
+              <LlamaIndex className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
               <i className='fab fa-node' />
             </li>
             <li className='list-inline-item'>
@@ -53,10 +63,152 @@ export default function Projects() {
               <OpenAI className='svg-inline--fa fa-js fa-w-14' />
             </li>
             <li className='list-inline-item'>
-              <LlamaIndex className='svg-inline--fa' />
+              <Claude className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Gemini className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <DeepSeek className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Anthropic className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Dalle className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Qwen className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <HuggingFace className='svg-inline--fa' />
             </li>
           </ul>
           <div className='d-flex row  mb-5'>
+            <div
+              id='agent-gallery'
+              className='card col-md-3 col-12 mx-2 mb-1'
+              style={{ width: '14rem' }}
+            >
+              <Gallery withCaption>
+                <Item
+                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                  width='1503'
+                  height='683'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      id='first'
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
+                  width='1234'
+                  height='677'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
+                  width='723'
+                  height='1214'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
+                  width='1229'
+                  height='1207'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
+                  width='1502'
+                  height='779'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
+                  width='2560'
+                  height='1440'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                  width='1503'
+                  height='1112'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                    />
+                  )}
+                </Item>
+              </Gallery>
+              <div className='card-body'>
+                <h5 className='card-title'>LLM Engineering Lab</h5>
+                <p>
+                  Data scientist lab setup in Anaconda using JupyterLab to
+                  experiment in creating AI agents in python using various Open
+                  Source and Frontier LLM models. Projects include brochure
+                  generation, language translation, function calling and
+                  multi-modal techniques.
+                </p>
+                <a
+                  href='https://github.com/jstoops/llm-engineer-lab'
+                  target='_blank'
+                  className='btn btn-primary'
+                >
+                  Github
+                </a>
+              </div>
+            </div>
             <div
               className='card col-md-3 col-12 mx-2 mb-1'
               style={{ width: '16rem' }}

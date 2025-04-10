@@ -1,4 +1,20 @@
-import { LangGraph, LangChain, OpenAI, LlamaIndex } from '@lobehub/icons';
+import {
+  LangGraph,
+  LangChain,
+  LlamaIndex,
+  OpenAI,
+  Claude,
+  Gemini,
+  DeepSeek,
+  Anthropic,
+  Dalle,
+  Qwen,
+  HuggingFace,
+  Dbrx,
+  Aws,
+  Colab,
+  Cloudflare,
+} from '@lobehub/icons';
 
 export default function Skills() {
   return (
@@ -6,18 +22,15 @@ export default function Skills() {
       <section className='resume-section' id='skills'>
         <div className='resume-section-content'>
           <h2 className='mb-5'>Skills</h2>
-          <div className='subheading mb-3'>
-            Programming Languages, Platforms &amp; Tools
-          </div>
           <ul className='list-inline dev-icons'>
             <li className='list-inline-item'>
-              <i className='fab fa-aws' />
+              <Aws className='svg-inline--fa' />
             </li>
             <li className='list-inline-item'>
               <img src='img/snowflake-bug-logo.png' />
             </li>
             <li className='list-inline-item'>
-              <img src='img/databricks-logo.png' />
+              <Dbrx className='svg-inline--fa' />
             </li>
             <li className='list-inline-item'>
               <img src='img/mulesoft-logo.png' />
@@ -178,6 +191,27 @@ export default function Skills() {
               <OpenAI className='svg-inline--fa fa-js fa-w-14' />
             </li>
             <li className='list-inline-item'>
+              <Claude className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Gemini className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <DeepSeek className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Anthropic className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Dalle className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Qwen className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <HuggingFace className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
               <i className='fab fa-cc-stripe' />
             </li>
             <li className='list-inline-item'>
@@ -310,6 +344,57 @@ export default function Skills() {
                   />
                 </g>
               </svg>
+            </li>
+            <li className='list-inline-item'>
+              <Colab className='svg-inline--fa' />
+            </li>
+            <li className='list-inline-item'>
+              <Cloudflare className='svg-inline--fa' />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Programming Languages</strong>: Python, Java, C#, C++,
+              JavaScript, TypeScript, JQuery, SQL, PHP, Visual Basic, JSP, PERL,
+              Pascal, Delphi
+            </li>
+            <li>
+              <strong>Databases</strong>: MongoDB, Microsoft SQL Server, Oracle,
+              MySQL, PostgreSQL, Microsoft Access, dBase
+            </li>
+            <li>
+              <strong>Runtimes</strong>: Node.js, Mule, Lambda, Python
+              Interpreter, Common Language Runtime (CLR)
+            </li>
+            <li>
+              <strong>Tools</strong>: Git, Docker, Compass, Postman, Gradio,
+              FlowiseAI, Vite, Prisma ORM, Mongoose ODM, Redux, Auth0, Zod,
+              Mapbox, GIMP, Photoshop, Corel Draw, SQL Server Reporting Services
+              (SSRS), Crystal Reports, SharePoint, DaVinci Resolve, Audacity,
+              Cakewalk, SoftEther VPN
+            </li>
+            <li>
+              <strong>IDEs</strong>: JupyterLab, VSCode, Visual Studio, Anypoint
+              Studio, Eclipse, Android Studio
+            </li>
+            <li>
+              <strong>Frameworks</strong>: Anaconda, .NET, React, Next.js,
+              NextAuth, Express.js, HuggingFace, LangChain, LangGraph,
+              LangSmith, LlambaIndex, Znode, ASP.NET, AspDotNetStorefront,
+              Drupal, Joomla, WordPress, RedDot, Unity3D, Entity Framework,
+              Jest, PyTest, xUnit, Nunit, MSTest, Munit, AJAX, ColdFusion
+            </li>
+            <li>
+              <strong>Models</strong>: Google's Gemini 1.5-2 Flash, OpenAI's
+              GPT-4o, Dall-E-3 & TTS-1, Meta's Llama 2-3, Anthropic's Claude 3.5
+              Sonnet , DeepSeek 3 Chat & Reasoner
+            </li>
+            <li>
+              <strong>Cloud & Hosting Platforms</strong>: Amazon Web Services
+              (AWS), Azure, Google, Snowflake, Databricks, CloudFlare,
+              LlambaCloud, Google Colab, Anypoint Platform, Render, Vercel,
+              Digital Ocean, Bluehost, GoDaddy, IONOS, SiteGround, Shopify,
+              Acquia
             </li>
           </ul>
           <div className='subheading mb-3'>Summary</div>
