@@ -36,28 +36,18 @@ export default function Navigation() {
             </a>
           </li>
           <li className='nav-item'>
+            <a className='nav-link js-scroll-trigger' href='#services'>
+              Services
+            </a>
+          </li>
+          <li className='nav-item'>
             <a className='nav-link js-scroll-trigger' href='#projects'>
               Projects
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#experience'>
-              Experience
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#education'>
-              Education
-            </a>
-          </li>
-          <li className='nav-item'>
             <a className='nav-link js-scroll-trigger' href='#skills'>
               Skills
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#interests'>
-              Interests
             </a>
           </li>
         </ul>

@@ -17,8 +17,7 @@ export default function About() {
         <div className='subheading mb-3'>IT Consultant</div>
         <p className='lead'>
           Over {year} years in IT developing technical solutions and over 8
-          years experience as an IT leader at Hawaiian Airlines (now Alaska
-          Airlines).
+          years experience as an IT leader.
         </p>
         <p className='lead'>
           I am experienced in building and architecting enterprise level

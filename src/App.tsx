@@ -1,10 +1,9 @@
 import './App.css';
 import Navigation from './components/Navigation';
 import About from './components/About';
-import Education from './components/Education';
 import Skills from './components/Skills';
-import Interests from './components/Interests';
 import Projects from './components/Projects';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -14,9 +13,8 @@ function App() {
         <div className='container-fluid p-0'>
           <About />
           <Projects />
-          <Education />
           <Skills />
-          <Interests />
+          <Services />
         </div>
       </div>
     </>

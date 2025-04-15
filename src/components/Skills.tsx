@@ -385,10 +385,10 @@ export default function Skills() {
               Jest, PyTest, xUnit, Nunit, MSTest, Munit, AJAX, ColdFusion
             </li>
             <li>
-              <strong>Models</strong>: Google's Gemini 1.5-2 Flash, OpenAI's
-              GPT-4o, Dall-E-3 & TTS-1, Meta's Llama 2-3, Anthropic's Claude 3.5
-              Sonnet , DeepSeek 3, Microsoft's Phi-3, Alibaba's Qwen2, BigCode's
-              Starcoder 2
+              <strong>Models</strong>: Google's Gemini 1.5-2 Flash & Gemma,
+              OpenAI's GPT-4o, Dall-E-3 & TTS-1, Meta's Llama 2-3, Anthropic's
+              Claude 3.5 Sonnet , DeepSeek 3, Microsoft's Phi-3, Alibaba's Qwen2
+              & CodeQwen 1.5 Chat, BigCode's Starcoder 2, Mistral's Mixtral
             </li>
             <li>
               <strong>Cloud & Hosting Platforms</strong>: Amazon Web Services

@@ -163,8 +163,8 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
-                  original='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
-                  thumbnail='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
+                  original='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
                   width='2560'
                   height='1440'
                 >
@@ -172,21 +172,63 @@ export default function Projects() {
                     <img
                       ref={ref}
                       onClick={open}
-                      src='img/LLM-Engineer-Lab-Brochure-UI-GPT.jpg'
+                      src='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
                     />
                   )}
                 </Item>
                 <Item
-                  original='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
-                  thumbnail='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
-                  width='1503'
-                  height='1112'
+                  original='img/LLM-Engineer-Lab-Code-Converter.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Code-Converter.jpg'
+                  width='1509'
+                  height='1024'
                 >
                   {({ ref, open }) => (
                     <img
                       ref={ref}
                       onClick={open}
-                      src='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                      src='img/LLM-Engineer-Lab-Code-Converter.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
+                  width='1506'
+                  height='503'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
+                  width='1501'
+                  height='1288'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
+                  width='1506'
+                  height='848'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
                     />
                   )}
                 </Item>
