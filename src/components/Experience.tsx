@@ -500,8 +500,8 @@ export default function Experience() {
                 </li>
                 <li>
                   <b>
-                    alifornia Water Quality Assessment (CalWQA) System for State
-                    Water Resources Control Board (SWRCB):
+                    California Water Quality Assessment (CalWQA) System for
+                    State Water Resources Control Board (SWRCB):
                   </b>{' '}
                   lead analyst and designer for system that collects lines of
                   evidence (LOE) on water body impairments in the state of

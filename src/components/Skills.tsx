@@ -387,7 +387,8 @@ export default function Skills() {
             <li>
               <strong>Models</strong>: Google's Gemini 1.5-2 Flash, OpenAI's
               GPT-4o, Dall-E-3 & TTS-1, Meta's Llama 2-3, Anthropic's Claude 3.5
-              Sonnet , DeepSeek 3 Chat & Reasoner
+              Sonnet , DeepSeek 3, Microsoft's Phi-3, Alibaba's Qwen2, BigCode's
+              Starcoder 2
             </li>
             <li>
               <strong>Cloud & Hosting Platforms</strong>: Amazon Web Services
@@ -395,6 +396,32 @@ export default function Skills() {
               LlambaCloud, Google Colab, Anypoint Platform, Render, Vercel,
               Digital Ocean, Bluehost, GoDaddy, IONOS, SiteGround, Shopify,
               Acquia
+            </li>
+          </ul>
+          <div className='subheading mb-3'>
+            Software Development Life Cycles (SDLCs) and Development Approaches
+          </div>
+          <ul>
+            <li>
+              <strong>Waterfall</strong>: big up-front design, lots of diagrams
+              rarely used or of use, often underestimated and delivered
+              something that didn't solve the problem.
+            </li>
+            <li>
+              <strong>Agile</strong>: applied badly, lets not design or document
+              anything then quickly run into a hot mess that doesn't scale,
+              performs poorly and is unreliable
+            </li>
+            <li>
+              <strong>Pragmatic agile</strong>: design what we need to make sure
+              we build the right thing for the business, document whats needed
+              to run the system and maintain it.
+            </li>
+            <li>
+              <strong>Vibing</strong>: creating solutions with AI at any stage
+              of the product development and makes a great coding partner for
+              rapid prototyping of ideas or getting initial MVS (minimum viable
+              skeleton).
             </li>
           </ul>
           <div className='subheading mb-3'>Summary</div>
