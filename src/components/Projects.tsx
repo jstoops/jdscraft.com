@@ -92,6 +92,7 @@ export default function Projects() {
             >
               <Gallery withCaption>
                 <Item
+                  caption='Airline AI Assistant that talks to customers and generates images of destinations'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
                   width='1503'
@@ -107,6 +108,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Airline AI Assistant that talks to customers and generates images of destinations'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
                   width='1234'
@@ -121,6 +123,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Airline AI Assistant that uses function calling to get ticket prices'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
                   width='723'
@@ -135,6 +138,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Airline AI Assistant that can take a customer through the entire booking and checkin process'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
                   width='1229'
@@ -149,6 +153,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='A UI that generates company brochures from a URL using Claude'
                   original='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
                   width='1502'
@@ -163,6 +168,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Using LLMs to translate generated company brochures into different languages'
                   original='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
                   width='2560'
@@ -177,6 +183,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='A UI that optimizes code so it runs up to 65K faster'
                   original='img/LLM-Engineer-Lab-Code-Converter.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Code-Converter.jpg'
                   width='1509'
@@ -191,6 +198,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Deploy open-source models to the cloud with an API'
                   original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
                   thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
                   width='1506'
@@ -205,6 +213,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Analytics on models running in the cloud'
                   original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
                   thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
                   width='1501'
@@ -219,6 +228,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
+                  caption='Options for running models in the cloud such as cloud provider, GPUs, memory, etc.'
                   original='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
                   thumbnail='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
                   width='1506'
@@ -229,6 +239,21 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='A chatbot UI for a RAG expert knowledge worker using a vector database'
+                  original='img/LLM-Engineer-Lab-Insurellm-RAG-Knowledge-Worker.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Insurellm-RAG-Knowledge-Worker.jpg'
+                  width='978'
+                  height='928'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Insurellm-RAG-Knowledge-Worker.jpg'
                     />
                   )}
                 </Item>

@@ -5,123 +5,112 @@ export default function Services() {
         <div className='resume-section-content'>
           <h2 className='mb-3'>AI &amp; LLM Services</h2>
           <p>
-            I have experience building and optimizing multiple AI agent
-            frameworks to streamline business processes and autonomously execute
-            tasks on the users behalf.
+            I have experience transforming businesses with IT and integrating AI
+            to streamline business processes and autonomously execute tasks on
+            the users behalf.
           </p>
           <p>
-            This is achieved by developing, fine-tuning, rigorously testing, and
-            deploying large language models (LLMs) to the cloud using best
-            practices in software engineering design principles and coding
-            practices. This delivers accurate and actionable insights for the
-            business and the users on a robust, scalable, secure and reliable
-            platform.
+            This is achieved by selecting technology that aligns with the
+            business and IT strategy. Once a AI adoption plan is in place I then
+            applying good engineering practices to developing, fine-tuning,
+            rigorously testing, and either deploying specially trained
+            open-source large language models (LLMs) to the cloud or safely
+            utilizing frontier LLMs safely using best practices in software
+            engineering design principles and coding practices. This delivers
+            accurate and actionable insights for the business and the users on a
+            robust, scalable, secure and reliable platform.
           </p>
           <div className='d-flex flex-column flex-md-row justify-content-between mb-2'>
             <div className='flex-grow-1'>
-              <h3 className='mb-0'>
-                Multi-Model AI Chatbot Assistant Development
-              </h3>
+              <h3 className='mb-0'>AI Adoption Planning</h3>
               <div className='subheading mb-3'>
-                Build multi-modal AI Chatbot Assistants with UI, Tools, and
-                Agents for enhanced expertise:
+                Analyze business processes and understand the business and IT
+                strategy to identify where AI can best provide a
+                return-on-investment (ROI) to your unique way of doing business,
+                the competition in the market place, and the technology stack
+                you have.
               </div>
               <ul>
-                <li>Implement customer support assistants with Chat UIs</li>
-                <li>Create data science UIs in Gradio</li>
                 <li>
-                  Provide context in a prompt including multi-shot prompting
+                  Compare LLMs to identify the right one for the task at hand
                 </li>
-                <li>Use Agents to carry out sequential activities</li>
-                <li>Create Function-calling Tools</li>
                 <li>
-                  Implement multi-modal AI Assistants with Agents and Tools
-                  including an interactive UI
+                  Identify real-world use cases of LLMs solving commercial
+                  problems that align to your business needs
+                </li>
+                <li>
+                  Confidently choose the right LLM and GenAI for your business,
+                  backed by metrics
+                </li>
+                <li>
+                  Deliver an AI adoption plan with key performance indicators
+                  (KPIs) to measure success
                 </li>
               </ul>
             </div>
           </div>
           <div className='d-flex flex-column flex-md-row justify-content-between mb-2'>
             <div className='flex-grow-1'>
-              <h3 className='mb-0'>HuggingFace Libraries Experience</h3>
+              <h3 className='mb-0'>AI Integration Services</h3>
               <div className='subheading mb-3'>
-                Navigate the HuggingPlace platform, run code in Colab and use
-                HuggingFace pipelines, tokenizers and models:
+                Build chatbot, AI agents, business process automation, software
+                development tools, data pipelines, and apply machine learning
+                (ML) to data analytics.
               </div>
               <ul>
                 <li>
-                  Find Models, Datasets and Spaces on the HuggingFace platform
+                  Implement customer support assistants trained on your business
+                  and product line with Chat UIs and integrated with your mobile
+                  app and website
                 </li>
-                <li>Use Google Colab to code on a high spec GPU runtime</li>
                 <li>
-                  Use HuggingFace pipelines for a wide variety of inference
-                  tasks
+                  Create expert knowledge worker assistant with chat UIs for
+                  your staff
+                </li>
+                <li>
+                  Build AI agents to automate business processes, generate
+                  leads, drive traffic, generate content (blog posts, YouTube
+                  scripts, social media posts, emails, images, audio)
+                </li>
+                <li>
+                  Integrate GenAI with software development processes to improve
+                  quality, time-to-market, and reduce costs
+                </li>
+                <li>
+                  Implement robust, reliable data pipelines to feed your AIs and
+                  data analytics platform with data
+                </li>
+                <li>
+                  Use ML to train your AIs and provide new business insights
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='d-flex flex-column flex-md-row justify-content-between mb-2'>
+            <div className='flex-grow-1'>
+              <h3 className='mb-0'>
+                Architecture Services for AI in the Cloud
+              </h3>
+              <div className='subheading mb-3'>
+                Develop a target architecture and a roadmap to transform your IT
+                infrastructure and development processes to use modern
+                technology and processes.
+              </div>
+              <ul>
+                <li>Establish common capabilities, processes, and tools</li>
+                <li>
+                  Continually reduce the overall cost of delivering IT services
+                </li>
+                <li>
+                  Improve development processes, quality, IT security, reduce
+                  development time/costs, and increase service reliability
                 </li>
                 <li>Use pipelines to generate text, images and audio</li>
-                <li>Create tokenizers for models</li>
-                <li>Translate between text and tokens</li>
-                <li>Understand special tokens and chat templates</li>
-                <li>Work with HuggingFace lower level APIs</li>
-                <li>Use HuggingFace models to generate text</li>
-                <li>Compare the results across multiple open source models</li>
-                <li>Confidently work with tokenizers and models</li>
-                <li>Run inference on open-source models</li>
                 <li>
-                  Implement an LLM solution combining Frontier and Open-source
-                  models
+                  Collaborate with IT department leads to effect change, build,
+                  train and lead a highly productive IT teams
                 </li>
-                <li>
-                  Build solutions with open-source LLMs with HuggingFace
-                  Transformers
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className='d-flex flex-column flex-md-row justify-content-between mb-2'>
-            <div className='flex-grow-1'>
-              <h3 className='mb-0'>Compare Open and Closed Source Models</h3>
-              <div className='subheading mb-3'>
-                Compare LLMs to identify the right one for the task at hand::
-              </div>
-              <ul>
-                <li>
-                  Navigate the most useful leaderboards and arenas to evaluate
-                  LLMs
-                </li>
-                <li>
-                  Compare LLMs based on their basic attributes and benchmarks
-                </li>
-                <li>
-                  Give real-world use cases of LLMs solving commercial problems
-                </li>
-                <li>
-                  Confidently choose the right LLM for projects, backed by
-                  metrics
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className='d-flex flex-column flex-md-row justify-content-between mb-2'>
-            <div className='flex-grow-1'>
-              <h3 className='mb-0'>
-                Leverage Models for High-Performance Code Generation in C++
-              </h3>
-              <div className='subheading mb-3'>
-                Build a product that converts code to C++ for performance:
-              </div>
-              <ul>
-                <li>
-                  Assess Frontier and Open-Source models for coding ability
-                </li>
-                <li>Use Frontier and open-source models to generate code</li>
-                <li>
-                  Implement solutions that use Frontier and Open-source LLMs to
-                  generate code
-                </li>
-                <li>
-                  Use HuggingFace inference endpoints to deploy models on AWS,
-                  Azure, and GCP
-                </li>
+                <li>Leverage modern technology, patterns and best practices</li>
               </ul>
             </div>
           </div>
