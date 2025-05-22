@@ -5,8 +5,10 @@ function calculateYears(startDate) {
 }
 
 export default function About() {
-  const dateString = '1998-7-1';
-  const year = calculateYears(dateString);
+  const itExperienceString = '1998-7-1';
+  const itYear = calculateYears(itExperienceString);
+  const leaderExperienceString = '2016-2-28';
+  const leaderYear = calculateYears(leaderExperienceString);
   return (
     <section className='resume-section' id='about'>
       <div className='resume-section-content'>
@@ -16,8 +18,8 @@ export default function About() {
         </h1>
         <div className='subheading mb-3'>IT Consultant</div>
         <p className='lead'>
-          Over {year} years in IT developing technical solutions and over 8
-          years experience as an IT leader.
+          Over {itYear} years in IT developing technical solutions and over{' '}
+          {leaderYear} years experience as an IT leader.
         </p>
         <p className='lead'>
           I am experienced in building and architecting enterprise level
@@ -74,7 +76,10 @@ export default function About() {
             creating technology governance plans to safely use new technology
             and processes
           </li>
-          <li>fullstack development, LLM engineering, software architecture</li>
+          <li>
+            fullstack development, LLM/ML/Data engineering, software
+            architecture
+          </li>
         </ul>
         <div className='social-icons'>
           <a

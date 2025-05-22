@@ -360,7 +360,7 @@ export default function Skills() {
             </li>
             <li>
               <strong>Databases</strong>: MongoDB, Microsoft SQL Server, Oracle,
-              MySQL, PostgreSQL, Microsoft Access, dBase
+              MySQL, PostgreSQL, Chroma, FAISS, Microsoft Access, dBase
             </li>
             <li>
               <strong>Runtimes</strong>: Node.js, Mule, Lambda, Python
@@ -375,7 +375,7 @@ export default function Skills() {
             </li>
             <li>
               <strong>IDEs</strong>: JupyterLab, VSCode, Visual Studio, Anypoint
-              Studio, Eclipse, Android Studio
+              Studio, Eclipse, Android Studio, PyCharm
             </li>
             <li>
               <strong>Frameworks</strong>: Anaconda, .NET, React, Next.js,
@@ -391,31 +391,39 @@ export default function Skills() {
               & CodeQwen 1.5 Chat, BigCode's Starcoder 2, Mistral's Mixtral
             </li>
             <li>
-              <strong>Cloud & Hosting Platforms</strong>: Amazon Web Services
-              (AWS), Azure, Google, Snowflake, Databricks, CloudFlare,
-              LlambaCloud, Google Colab, Anypoint Platform, Render, Vercel,
-              Digital Ocean, Bluehost, GoDaddy, IONOS, SiteGround, Shopify,
-              Acquia
+              <strong>Cloud & Hosting Platforms</strong>: Modal, Amazon Web
+              Services (AWS), Microsoft Azure, Google Cloud Platform (GCP),
+              Snowflake, Databricks, CloudFlare, LlambaCloud, Google Colab,
+              Anypoint Platform, Render, Vercel, Digital Ocean, Bluehost,
+              GoDaddy, IONOS, SiteGround, Shopify, Acquia
             </li>
           </ul>
           <div className='subheading mb-3'>
-            Software Development Life Cycles (SDLCs) and Development Approaches
+            Software Development Life Cycles (SDLC) and Development Approaches
           </div>
           <ul>
             <li>
-              <strong>Waterfall</strong>: big up-front design, lots of diagrams
-              rarely used or of use, often underestimated and delivered
-              something that didn't solve the problem.
+              <strong>Waterfall</strong>: used on projects that have a clearly
+              defined set of requirements and fixed scope, such as replacing or
+              upgrading off-the-shelf systems that have a fixed cut over date.
             </li>
             <li>
-              <strong>Agile</strong>: applied badly, lets not design or document
-              anything then quickly run into a hot mess that doesn't scale,
-              performs poorly and is unreliable
+              <strong>Agile</strong>: used when the technical stack, design
+              patterns and architecture are in place and a firm foundation is in
+              production that can be iterated on to deliver new features.
             </li>
             <li>
-              <strong>Pragmatic agile</strong>: design what we need to make sure
-              we build the right thing for the business, document whats needed
-              to run the system and maintain it.
+              <strong>Pragmatic agile</strong>: design a solution using a
+              combination of risk-driven and client-driven iterative planning.
+              The MVP (minimum viable product), or beachhead app, has a fixed
+              scope that delivers features the business most cares about and
+              drives down the highest risks. The practice of
+              architecture-centric iterative development is used that focuses on
+              building, testing, and stabilizing the core architecture first
+              because not having a solid architecture is a common high risk. A
+              solution with real business value is delivered to get early
+              feedback, metrics for KPIs to determine if to continue and
+              includes design, runbooks (ops support playbooks) and monitoring.
             </li>
             <li>
               <strong>Vibing</strong>: creating solutions with AI at any stage

@@ -93,22 +93,6 @@ export default function Projects() {
               <Gallery withCaption>
                 <Item
                   caption='Airline AI Assistant that talks to customers and generates images of destinations'
-                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
-                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
-                  width='1503'
-                  height='683'
-                >
-                  {({ ref, open }) => (
-                    <img
-                      id='first'
-                      ref={ref}
-                      onClick={open}
-                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
-                    />
-                  )}
-                </Item>
-                <Item
-                  caption='Airline AI Assistant that talks to customers and generates images of destinations'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
                   width='1234'
@@ -116,9 +100,25 @@ export default function Projects() {
                 >
                   {({ ref, open }) => (
                     <img
+                      id='first'
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Airline AI Assistant that talks to customers and generates images of destinations'
+                  original='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                  thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                  width='1503'
+                  height='683'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
                     />
                   )}
                 </Item>
@@ -269,6 +269,151 @@ export default function Projects() {
                 </p>
                 <a
                   href='https://github.com/jstoops/llm-engineer-lab'
+                  target='_blank'
+                  className='btn btn-primary'
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div
+              id='agent-gallery'
+              className='card col-md-3 col-12 mx-2 mb-1'
+              style={{ width: '14rem' }}
+            >
+              <Gallery withCaption>
+                <Item
+                  caption='AI agentic framework for finding deals on products'
+                  original='img/agent-workflow.jpg'
+                  thumbnail='img/agent-workflow.jpg'
+                  width='1814'
+                  height='1004'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      id='first'
+                      ref={ref}
+                      onClick={open}
+                      src='img/agent-workflow.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Push notifications using Pushover'
+                  original='img/Product_Pricer_Push_Notification.jpg'
+                  thumbnail='img/Product_Pricer_Push_Notification.jpg'
+                  width='432'
+                  height='912'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product_Pricer_Push_Notification.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Gradio UI'
+                  original='img/Product_Pricer_Gradio_UI.jpg'
+                  thumbnail='img/Product_Pricer_Gradio_UI.jpg'
+                  width='1227'
+                  height='553'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product_Pricer_Gradio_UI.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='UI for ops team to monitor logs and navigate 3D visualization of RAG vectorstore'
+                  original='img/Product_Pricer_Gradio_UI_Logging_3D_Vectorstore.jpg'
+                  thumbnail='img/Product_Pricer_Gradio_UI_Logging_3D_Vectorstore.jpg'
+                  width='1777'
+                  height='397'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product_Pricer_Gradio_UI_Logging_3D_Vectorstore.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='2D visualization of all 400,000 products in RAG vectorstore'
+                  original='img/pricer-vectorstore-2d-visualization-400k.jpg'
+                  thumbnail='img/pricer-vectorstore-2d-visualization-400k.jpg'
+                  width='1816'
+                  height='1123'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/pricer-vectorstore-2d-visualization-400k.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Monitoring fine tuning of open-source model in Weights & Biases AI developer platform'
+                  original='img/Product-Pricer-Fine-Tuning-WandB-Job-Run.jpg'
+                  thumbnail='img/Product-Pricer-Fine-Tuning-WandB-Job-Run.jpg'
+                  width='1382'
+                  height='632'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product-Pricer-Fine-Tuning-WandB-Job-Run.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Distribution of prices predicted using fine-tuned Llama 3.1 8B with 4bit quantization'
+                  original='img/Product-Pricer-Open-Source-LLM-Llama-3-1-8B-Fine-Tuned-4-Bit.jpg'
+                  thumbnail='img/Product-Pricer-Open-Source-LLM-Llama-3-1-8B-Fine-Tuned-4-Bit.jpg'
+                  width='1001'
+                  height='696'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product-Pricer-Open-Source-LLM-Llama-3-1-8B-Fine-Tuned-4-Bit.jpg'
+                    />
+                  )}
+                </Item>
+                <Item
+                  caption='Final results of fine-tuned open-source model compared to tradition ML and frontier models'
+                  original='img/Product-Pricer-Model-Evaluation-Final-Results.jpg'
+                  thumbnail='img/Product-Pricer-Model-Evaluation-Final-Results.jpg'
+                  width='1237'
+                  height='664'
+                >
+                  {({ ref, open }) => (
+                    <img
+                      ref={ref}
+                      onClick={open}
+                      src='img/Product-Pricer-Model-Evaluation-Final-Results.jpg'
+                    />
+                  )}
+                </Item>
+              </Gallery>
+              <div className='card-body'>
+                <h5 className='card-title'>Product Pricing Agent</h5>
+                <p>
+                  7 Agents collaborating in a custom AI Agentic framework:
+                  GTP-4o identifies deals from RSS feed, fine-tuned model
+                  estimates prices, a massive RAG vectorstore, messaging agent
+                  sends push notifications, and planning agent to coordinate.
+                </p>
+                <a
+                  href='https://github.com/jstoops/product-pricing-agent'
                   target='_blank'
                   className='btn btn-primary'
                 >
@@ -532,36 +677,6 @@ export default function Projects() {
                   about a lead, writes emails, load documents into a vector
                   databases to use for providing detailed knowledge, analyze
                   finances & stocks, visualize data, etc.
-                </p>
-              </div>
-            </div>
-            <div
-              className='card col-md-3 col-12 mx-2 mb-1'
-              style={{ width: '14rem' }}
-            >
-              <Gallery>
-                <Item
-                  original='img/Stock-Analyzer-AI-Chatbot-Embed.jpg'
-                  thumbnail='img/Stock-Analyzer-AI-Chatbot-Embed.jpg'
-                  width='1980'
-                  height='1080'
-                >
-                  {({ ref, open }) => (
-                    <img
-                      ref={ref}
-                      onClick={open}
-                      src='img/Stock-Analyzer-AI-Chatbot-Embed.jpg'
-                    />
-                  )}
-                </Item>
-              </Gallery>
-              <div className='card-body'>
-                <h5 className='card-title'>Stock Analyzer AI Agent Chatbot</h5>
-                <p>
-                  Analyzes stock data using a custom tool with JavaScript code
-                  to call an API and producers a report on stock price movements
-                  embedded as a chatbot with speech-to-text, user feedback &
-                  lead generation capabilities embedded in a webpage.
                 </p>
               </div>
             </div>
