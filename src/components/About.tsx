@@ -91,6 +91,9 @@ export default function About() {
           <a className='social-icon' href='https://github.com/jstoops'>
             <i className='fab fa-github' />
           </a>
+          <a className='social-icon' href='https://medium.com/@john.stoops'>
+            <i className='fab fa-medium' />
+          </a>
         </div>
       </div>
     </section>
