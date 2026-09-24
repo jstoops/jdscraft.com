@@ -12,8 +12,8 @@ describe('document shell', () => {
   it('mounts the React app and loads the resume theme scripts', () => {
     expect(html).toContain('<div id="root"></div>');
     expect(html).toContain('<script type="module" src="/src/main.tsx"></script>');
-    expect(html).toContain('jquery/3.5.1/jquery.min.js');
-    expect(html).toContain('bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js');
+    expect(html).toContain('jquery/3.7.1/jquery.min.js');
+    expect(html).toContain('bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js');
     expect(html).toContain('jquery-easing/1.4.1/jquery.easing.min.js');
     expect(html).toContain('src="js/scripts.js"');
   });

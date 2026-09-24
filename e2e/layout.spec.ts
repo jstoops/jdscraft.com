@@ -14,10 +14,7 @@ test.describe('resume layout', () => {
     const overflow = await page.evaluate(
       () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
     );
-    // Phone width currently overflows by 4px because project cards and the
-    // fixed navbar extend past the viewport. Larger overflow is a regression.
-    const width = page.viewportSize()?.width ?? 0;
-    expect(overflow).toBeLessThanOrEqual(width >= 992 ? 1 : 4);
+    expect(overflow).toBeLessThanOrEqual(1);
   });
 
   test('uses the fixed side navigation on desktop and the top bar on small screens', async ({

@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import App from '../App';
 
-describe('known content defects', () => {
-  it.fails('gives every image an accessible name', () => {
+describe('content quality', () => {
+  it('gives every image an accessible name', () => {
     render(<App />);
     const images = Array.from(document.querySelectorAll('img'));
     const missing = images
@@ -12,14 +12,14 @@ describe('known content defects', () => {
     expect(missing).toEqual([]);
   });
 
-  it.fails('uses unique element ids', () => {
+  it('uses unique element ids', () => {
     render(<App />);
     const ids = Array.from(document.querySelectorAll('[id]')).map((element) => element.id);
     const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
     expect([...new Set(duplicates)]).toEqual([]);
   });
 
-  it.fails('protects new-tab links against tabnabbing', () => {
+  it('protects new-tab links against tabnabbing', () => {
     render(<App />);
     const unsafe = Array.from(document.querySelectorAll('a[target="_blank"]'))
       .filter((link) => !link.getAttribute('rel')?.includes('noopener'))
@@ -27,7 +27,7 @@ describe('known content defects', () => {
     expect(unsafe).toEqual([]);
   });
 
-  it.fails('lists navigation items in the same order as the page sections', () => {
+  it('lists navigation items in the same order as the page sections', () => {
     render(<App />);
     const navOrder = Array.from(document.querySelectorAll('.nav-link')).map((link) =>
       link.getAttribute('href'),
@@ -38,9 +38,15 @@ describe('known content defects', () => {
     expect(navOrder).toEqual(sectionOrder);
   });
 
-  it.fails('renders SVG presentation attributes React understands', () => {
+  it('applies SVG presentation attributes without React warnings', () => {
+    const errors: string[] = [];
+    const spy = vi.spyOn(console, 'error').mockImplementation((message) => {
+      errors.push(String(message));
+    });
     render(<App />);
-    const invalid = document.querySelectorAll('[stop-color], [clip-rule], [fill-rule]');
-    expect(invalid.length).toBe(0);
+    spy.mockRestore();
+    expect(errors.filter((message) => message.includes('Invalid DOM property'))).toEqual([]);
+    expect(document.querySelectorAll('stop[stop-color]').length).toBeGreaterThan(0);
+    expect(document.querySelector('[clip-rule="evenodd"]')).toBeTruthy();
   });
 });

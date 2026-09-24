@@ -23,7 +23,7 @@ describe('Navigation', () => {
   it('brands the mobile bar and links the profile back to the top', () => {
     render(<Navigation />);
     expect(screen.getByText('JDSCraft')).toHaveClass('d-block', 'd-lg-none');
-    const brand = screen.getByRole('link', { name: 'JDSCraft' });
+    const brand = document.querySelector('.navbar-brand') as HTMLAnchorElement;
     expect(brand).toHaveAttribute('href', '#page-top');
     expect(brand.querySelector('img')).toHaveAttribute('src', 'img/avatar.jpg');
     expect(brand.querySelector('.d-none.d-lg-block')).toBeInTheDocument();

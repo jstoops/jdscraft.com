@@ -85,13 +85,28 @@ export default function About() {
           <a
             className='social-icon'
             href='https://www.linkedin.com/in/jstoops/'
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label='LinkedIn'
           >
             <i className='fab fa-linkedin-in' />
           </a>
-          <a className='social-icon' href='https://github.com/jstoops'>
+          <a
+            className='social-icon'
+            href='https://github.com/jstoops'
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label='GitHub'
+          >
             <i className='fab fa-github' />
           </a>
-          <a className='social-icon' href='https://medium.com/@john.stoops'>
+          <a
+            className='social-icon'
+            href='https://medium.com/@john.stoops'
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label='Medium'
+          >
             <i className='fab fa-medium' />
           </a>
         </div>

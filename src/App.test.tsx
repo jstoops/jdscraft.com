@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import App from './App';
 
-const sectionIds = ['about', 'projects', 'skills', 'services'] as const;
+const sectionIds = ['about', 'services', 'projects', 'skills'] as const;
 
 describe('App content layout', () => {
   it('renders the page shell and the four resume sections in document order', () => {
@@ -19,7 +19,7 @@ describe('App content layout', () => {
     );
     expect(
       sections.map((section) => section!.id),
-    ).toEqual(['about', 'projects', 'skills', 'services']);
+    ).toEqual(['about', 'services', 'projects', 'skills']);
     expect(positions[0]).toBe(0);
     for (let index = 1; index < sections.length; index += 1) {
       expect(
