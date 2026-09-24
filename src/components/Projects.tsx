@@ -1021,14 +1021,6 @@ export default function Projects() {
                 >
                   Github
                 </a>
-                <a
-                  href='https://next-property-weld.vercel.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='btn btn-secondary'
-                >
-                  Demo
-                </a>
               </div>
             </div>
             <div
@@ -1068,14 +1060,6 @@ export default function Projects() {
                 >
                   Github
                 </a>
-                <a
-                  href='https://prostore-three-steel.vercel.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='btn btn-secondary'
-                >
-                  Demo
-                </a>
               </div>
             </div>
             <div
@@ -1113,14 +1097,6 @@ export default function Projects() {
                   className='btn btn-primary'
                 >
                   Github
-                </a>
-                <a
-                  href='https://shop.jdscraft.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='btn btn-secondary'
-                >
-                  Demo
                 </a>
               </div>
             </div>
