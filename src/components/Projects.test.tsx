@@ -45,18 +45,9 @@ describe('Projects', () => {
     }
   });
 
-  it('links live demos for the three web apps', () => {
+  it('does not link live demos from the project cards', () => {
     render(<Projects />);
-    const demos = screen.getAllByRole('link', { name: 'Demo' });
-    expect(demos.map((link) => link.getAttribute('href'))).toEqual([
-      'https://next-property-weld.vercel.app/',
-      'https://prostore-three-steel.vercel.app/',
-      'https://shop.jdscraft.com/',
-    ]);
-    for (const link of demos) {
-      expect(link).toHaveClass('btn', 'btn-secondary');
-      expect(link).toHaveAttribute('target', '_blank');
-    }
+    expect(screen.queryByRole('link', { name: 'Demo' })).not.toBeInTheDocument();
   });
 
   it('keeps project cards in a wrapping row with a fixed card width', () => {
