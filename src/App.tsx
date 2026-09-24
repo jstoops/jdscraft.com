@@ -12,9 +12,9 @@ function App() {
         <Navigation />
         <div className='container-fluid p-0'>
           <About />
+          <Services />
           <Projects />
           <Skills />
-          <Services />
         </div>
       </div>
     </>

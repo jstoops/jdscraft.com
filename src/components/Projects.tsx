@@ -36,7 +36,8 @@ export default function Projects() {
               <img
                 className='svg-inline--fa fa-js bg-dark rounded-sm'
                 src='img/flowiseai-logo.webp'
-              />
+                      alt='FlowiseAI'
+                    />
             </li>
             <li className='list-inline-item'>
               <LangChain className='svg-inline--fa' />
@@ -86,8 +87,7 @@ export default function Projects() {
           </ul>
           <div className='d-flex row  mb-5'>
             <div
-              id='agent-gallery'
-              className='card col-md-3 col-12 mx-2 mb-1'
+              className='agent-gallery card col-md-3 col-12 mx-2 mb-1'
               style={{ width: '14rem' }}
             >
               <Gallery withCaption>
@@ -100,10 +100,11 @@ export default function Projects() {
                 >
                   {({ ref, open }) => (
                     <img
-                      id='first'
+                      className='gallery-cover'
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Berlin-Image-Audio.jpg'
+                      alt='Airline AI Assistant that talks to customers and generates images of destinations'
                     />
                   )}
                 </Item>
@@ -119,6 +120,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-London-Image-Audio.jpg'
+                      alt='Airline AI Assistant that talks to customers and generates images of destinations'
                     />
                   )}
                 </Item>
@@ -134,6 +136,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Prices-Tool.jpg'
+                      alt='Airline AI Assistant that uses function calling to get ticket prices'
                     />
                   )}
                 </Item>
@@ -149,6 +152,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
+                      alt='Airline AI Assistant that can take a customer through the entire booking and checkin process'
                     />
                   )}
                 </Item>
@@ -164,6 +168,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Brochure-UI-Claude.jpg'
+                      alt='A UI that generates company brochures from a URL using Claude'
                     />
                   )}
                 </Item>
@@ -179,6 +184,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Brochure-Spanish.jpg'
+                      alt='Using LLMs to translate generated company brochures into different languages'
                     />
                   )}
                 </Item>
@@ -194,6 +200,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Code-Converter.jpg'
+                      alt='A UI that optimizes code so it runs up to 65K faster'
                     />
                   )}
                 </Item>
@@ -209,6 +216,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Overview.jpg'
+                      alt='Deploy open-source models to the cloud with an API'
                     />
                   )}
                 </Item>
@@ -224,6 +232,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Analytics.jpg'
+                      alt='Analytics on models running in the cloud'
                     />
                   )}
                 </Item>
@@ -239,6 +248,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-HF-Qwen-Endpoint-Settings.jpg'
+                      alt='Options for running models in the cloud such as cloud provider, GPUs, memory, etc.'
                     />
                   )}
                 </Item>
@@ -254,6 +264,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Insurellm-RAG-Knowledge-Worker.jpg'
+                      alt='A chatbot UI for a RAG expert knowledge worker using a vector database'
                     />
                   )}
                 </Item>
@@ -270,6 +281,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/llm-engineer-lab'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -277,8 +289,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              id='agent-gallery'
-              className='card col-md-3 col-12 mx-2 mb-1'
+              className='agent-gallery card col-md-3 col-12 mx-2 mb-1'
               style={{ width: '14rem' }}
             >
               <Gallery withCaption>
@@ -291,10 +302,11 @@ export default function Projects() {
                 >
                   {({ ref, open }) => (
                     <img
-                      id='first'
+                      className='gallery-cover'
                       ref={ref}
                       onClick={open}
                       src='img/agent-workflow.jpg'
+                      alt='AI agentic framework for finding deals on products'
                     />
                   )}
                 </Item>
@@ -310,6 +322,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product_Pricer_Push_Notification.jpg'
+                      alt='Push notifications using Pushover'
                     />
                   )}
                 </Item>
@@ -325,6 +338,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product_Pricer_Gradio_UI.jpg'
+                      alt='Gradio UI'
                     />
                   )}
                 </Item>
@@ -340,6 +354,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product_Pricer_Gradio_UI_Logging_3D_Vectorstore.jpg'
+                      alt='UI for ops team to monitor logs and navigate 3D visualization of RAG vectorstore'
                     />
                   )}
                 </Item>
@@ -355,6 +370,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/pricer-vectorstore-2d-visualization-400k.jpg'
+                      alt='2D visualization of all 400,000 products in RAG vectorstore'
                     />
                   )}
                 </Item>
@@ -370,6 +386,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product-Pricer-Fine-Tuning-WandB-Job-Run.jpg'
+                      alt='Monitoring fine tuning of open-source model in Weights & Biases AI developer platform'
                     />
                   )}
                 </Item>
@@ -385,6 +402,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product-Pricer-Open-Source-LLM-Llama-3-1-8B-Fine-Tuned-4-Bit.jpg'
+                      alt='Distribution of prices predicted using fine-tuned Llama 3.1 8B with 4bit quantization'
                     />
                   )}
                 </Item>
@@ -400,6 +418,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Product-Pricer-Model-Evaluation-Final-Results.jpg'
+                      alt='Final results of fine-tuned open-source model compared to tradition ML and frontier models'
                     />
                   )}
                 </Item>
@@ -415,6 +434,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/product-pricing-agent'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -437,6 +457,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/AI-Voice-Assistant-Webcam-Desktop-Voice.webp'
+                      alt='AI Voice Assistant Webcam Desktop Voice'
                     />
                   )}
                 </Item>
@@ -452,6 +473,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/ai-voice-assistant'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -459,8 +481,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              id='agent-gallery'
-              className='card col-md-3 col-12 mx-2 mb-1'
+              className='agent-gallery card col-md-3 col-12 mx-2 mb-1'
               style={{ width: '14rem' }}
             >
               <Gallery withCaption>
@@ -472,10 +493,11 @@ export default function Projects() {
                 >
                   {({ ref, open }) => (
                     <img
-                      id='first'
+                      className='gallery-cover'
                       ref={ref}
                       onClick={open}
                       src='img/Rental-Investment-Chatbot-3.jpg'
+                      alt='Rental Investment Chatbot 3'
                     />
                   )}
                 </Item>
@@ -490,6 +512,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Rental-Investment-Chatbot-2.jpg'
+                      alt='Rental Investment Chatbot 2'
                     />
                   )}
                 </Item>
@@ -504,6 +527,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Rental-Investment-Chatbot-1.jpg'
+                      alt='Rental Investment Chatbot 1'
                     />
                   )}
                 </Item>
@@ -536,6 +560,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Blog-Standard-NextJS-OpenAI.jpg'
+                      alt='Blog Standard NextJS OpenAI'
                     />
                   )}
                 </Item>
@@ -550,6 +575,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/blog-standard'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -557,8 +583,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              id='agent-gallery'
-              className='card col-md-3 col-12 mx-2 mb-1'
+              className='agent-gallery card col-md-3 col-12 mx-2 mb-1'
               style={{ width: '14rem' }}
             >
               <Gallery withCaption>
@@ -571,10 +596,11 @@ export default function Projects() {
                 >
                   {({ ref, open }) => (
                     <img
-                      id='first'
+                      className='gallery-cover'
                       ref={ref}
                       onClick={open}
                       src='img/Social-AI-Agent.jpg'
+                      alt='Social Media Strategy AI Agent'
                     />
                   )}
                 </Item>
@@ -590,6 +616,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Search-Mail-AI-Agent.jpg'
+                      alt='Lead Generation AI Agent'
                     />
                   )}
                 </Item>
@@ -605,6 +632,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Prompting-Team-AI-Agent.jpg'
+                      alt='Prompt Engineering for Creating AI Agents'
                     />
                   )}
                 </Item>
@@ -620,6 +648,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/RAG-App-AI-Agent.jpg'
+                      alt='Expert RAG App AI Agent'
                     />
                   )}
                 </Item>
@@ -635,6 +664,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Personal-Finance-Data-AI-Agent.jpg'
+                      alt='Personal Finance AI Agent'
                     />
                   )}
                 </Item>
@@ -650,6 +680,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Stock-Analyzer-AI-Agent.jpg'
+                      alt='Stock Analyzer AI Agent'
                     />
                   )}
                 </Item>
@@ -665,6 +696,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/AI-Agent-Usage-Cost-Tracking.jpg'
+                      alt='AI Agent Usage and Cost Tracking'
                     />
                   )}
                 </Item>
@@ -715,7 +747,7 @@ export default function Projects() {
                   fill='#D9D9D9'
                 />
                 <mask
-                  id='mask0_156_252'
+                  id='projects-mask'
                   maskUnits='userSpaceOnUse'
                   x='3'
                   y='2'
@@ -727,53 +759,53 @@ export default function Projects() {
                     fill='#D9D9D9'
                   />
                 </mask>
-                <g mask='url(#mask0_156_252)'>
+                <g mask='url(#projects-mask)'>
                   <path
                     d='M10.2112 9.77465L10.0986 1.71831L17.8169 3.80282L10.2112 9.77465Z'
-                    fill='url(#paint0_linear_156_252)'
+                    fill='url(#projects-paint0)'
                   />
                   <path
                     d='M10.2113 9.77465V2L2.83098 3.97183L1.81689 8.76056L5.02816 13.7746L10.2113 9.77465Z'
-                    fill='url(#paint1_linear_156_252)'
+                    fill='url(#projects-paint1)'
                   />
                   <path
                     d='M17.5915 3.97183L4.91547 13.7746V18.2254H17.4225L17.5915 3.97183Z'
-                    fill='url(#paint2_linear_156_252)'
+                    fill='url(#projects-paint2)'
                   />
                 </g>
                 <defs>
                   <linearGradient
-                    id='paint0_linear_156_252'
+                    id='projects-paint0'
                     x1='10.2112'
                     y1='2'
                     x2='15.6197'
                     y2='5.5493'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#19AAE8' />
-                    <stop offset='1' stop-color='#1EA5F1' />
+                    <stop stopColor='#19AAE8' />
+                    <stop offset='1' stopColor='#1EA5F1' />
                   </linearGradient>
                   <linearGradient
-                    id='paint1_linear_156_252'
+                    id='projects-paint1'
                     x1='3.05633'
                     y1='4.14085'
                     x2='10.2113'
                     y2='9.66197'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#2BE2B8' />
-                    <stop offset='1' stop-color='#19B9E3' />
+                    <stop stopColor='#2BE2B8' />
+                    <stop offset='1' stopColor='#19B9E3' />
                   </linearGradient>
                   <linearGradient
-                    id='paint2_linear_156_252'
+                    id='projects-paint2'
                     x1='17.3098'
                     y1='4.02817'
                     x2='7.95772'
                     y2='16.9859'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#925CDF' />
-                    <stop offset='1' stop-color='#CC42E5' />
+                    <stop stopColor='#925CDF' />
+                    <stop offset='1' stopColor='#CC42E5' />
                   </linearGradient>
                 </defs>
               </svg>
@@ -860,7 +892,7 @@ export default function Projects() {
                 viewBox='0 0 128 128'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                <g clip-rule='evenodd' fill-rule='evenodd'>
+                <g clipRule='evenodd' fillRule='evenodd'>
                   <path
                     d='m87.259 100.139c.169-.325.331-.612.469-.909.087-.19.221-.228.41-.223 1.133.032 2.266.067 3.4.078.963.01 1.928-.008 2.892-.019 1.086-.013 2.172-.07 3.257-.039 1.445.042 2.853.325 4.16.968 1.561.769 2.742 1.94 3.547 3.483.514.985.812 2.03.931 3.14.172 1.608.059 3.179-.451 4.717-.632 1.906-1.832 3.365-3.499 4.458-1.283.841-2.69 1.338-4.198 1.622-1.596.301-3.197.204-4.798.209-1.756.007-3.511-.031-5.267-.051-.307-.003-.351-.061-.27-.354l.075-.27c.171-.538.263-.562.809-.652.378-.061.77-.203 1.087-.413.184-.122.26-.44.332-.685.062-.214.065-.449.067-.675.025-3.425.051-6.849.065-10.272.003-.865-.017-1.732-.065-2.596-.034-.605-.357-1.019-1.077-1.162-.56-.111-1.124-.197-1.687-.296zm16.076 8.293c-.076-.682-.113-1.37-.235-2.042-.292-1.613-.998-3.018-2.238-4.119-2.005-1.779-4.419-2.053-6.949-1.841-.576.048-.7.245-.709.837-.014.84-.028 1.68-.029 2.52-.004 2.664-.004 5.328 0 7.992.001.758.009 1.516.031 2.272.024.774.305 1.429 1.063 1.729 1.195.473 2.452.529 3.706.336 2.003-.307 3.404-1.474 4.344-3.223.744-1.388.954-2.903 1.016-4.461zm4.869 9.071c-.024-.415.146-.758.356-1.073.057-.085.253-.081.388-.108l1.146-.227c.405-.086.618-.358.675-.755.038-.262.074-.527.077-.792.025-2.097.049-4.194.059-6.291.01-2.1.002-4.2.002-6.3l-.009-.401c-.041-.675-.367-1.025-1.037-1.124l-1.453-.221c-.179-.024-.244-.11-.179-.269.112-.271.219-.552.377-.796.059-.09.258-.125.392-.122.694.01 1.388.062 2.082.061l6.041-.036c1.164-.001 2.288.202 3.332.759 1.149.612 1.792 1.559 1.976 2.849.192 1.355-.219 2.497-1.209 3.404-.407.374-.934.618-1.406.922l-.154.096c.438.161.855.3 1.261.466 1.188.487 2.133 1.248 2.633 2.463.395.959.395 1.959.161 2.953-.364 1.556-1.389 2.591-2.722 3.374-1.251.735-2.605 1.163-4.047 1.235-1.33.067-2.666.042-3.999.057l-.772.004c-1.284-.029-2.569-.062-3.854-.096zm5.537-6.089h.013c0 .658-.009 1.316.003 1.974.008.426-.007.864.085 1.274.138.613.418 1.166 1.106 1.342.929.239 1.878.287 2.818.124 1.177-.205 2.116-.795 2.631-1.916.382-.833.439-1.716.308-2.618-.174-1.188-.805-2.05-1.854-2.615-.688-.371-1.422-.598-2.204-.628-.876-.033-1.753-.035-2.629-.062-.246-.007-.28.118-.279.32.005.934.002 1.869.002 2.805zm1.865-4.475c.479-.024 1.021-.031 1.56-.085 1.032-.103 1.759-.622 2.138-1.609.193-.501.185-1.017.19-1.538.015-1.357-.777-2.469-2.066-2.929-.995-.355-2.021-.361-3.053-.333-.418.011-.605.194-.611.615l-.062 5.489c-.003.218.091.312.303.319z'
                     fill='#94795d'
@@ -984,6 +1016,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/next-property'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -991,6 +1024,7 @@ export default function Projects() {
                 <a
                   href='https://next-property-weld.vercel.app/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-secondary'
                 >
                   Demo
@@ -1029,6 +1063,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/prostore'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -1036,6 +1071,7 @@ export default function Projects() {
                 <a
                   href='https://prostore-three-steel.vercel.app/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-secondary'
                 >
                   Demo
@@ -1058,6 +1094,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/Proshop-MERN-Redux-Ecom.png'
+                      alt='Proshop MERN Redux Ecom'
                     />
                   )}
                 </Item>
@@ -1072,6 +1109,7 @@ export default function Projects() {
                 <a
                   href='https://github.com/jstoops/proshop'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
                   Github
@@ -1079,6 +1117,7 @@ export default function Projects() {
                 <a
                   href='https://shop.jdscraft.com/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='btn btn-secondary'
                 >
                   Demo

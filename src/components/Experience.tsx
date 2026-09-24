@@ -677,7 +677,11 @@ export default function Experience() {
                 <li>
                   <b>
                     Public Web site for the{' '}
-                    <a href='https://www.edenproject.com/' target='_blank'>
+                    <a
+                      href='https://www.edenproject.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       Eden Project
                     </a>
                     :
@@ -691,7 +695,11 @@ export default function Experience() {
                 <li>
                   <b>
                     Intranet Web site for the{' '}
-                    <a href='https://www.edenproject.com/' target='_blank'>
+                    <a
+                      href='https://www.edenproject.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       Eden Project
                     </a>
                     :
@@ -727,6 +735,7 @@ export default function Experience() {
                   <a
                     href='https://www.legislation.gov.uk/uksi/2002/2013/contents'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     The Electronic Commerce (EC Directive) Regulations 2002
                   </a>

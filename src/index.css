@@ -67,9 +67,26 @@ button:focus-visible {
   }
 }
 
-#agent-gallery img {
+.agent-gallery img {
   display: none;
 }
-#agent-gallery img#first {
+.agent-gallery img.gallery-cover {
   display: block;
+}
+
+#projects .row {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+#projects .card {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  #sideNav .logo {
+    height: 2.5rem;
+    padding: 0.25rem;
+  }
 }

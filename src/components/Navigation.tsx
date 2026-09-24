@@ -13,7 +13,7 @@ export default function Navigation() {
           <img
             className='img-fluid img-profile rounded-circle mx-auto mb-2'
             src='img/avatar.jpg'
-            alt=''
+            alt='Portrait of JDSCraft'
           />
         </span>
       </a>
@@ -53,10 +53,10 @@ export default function Navigation() {
         </ul>
       </div>
       <div>
-        <a href='https://vitejs.dev' target='_blank'>
+        <a href='https://vitejs.dev' target='_blank' rel='noopener noreferrer'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
         </a>
-        <a href='https://react.dev' target='_blank'>
+        <a href='https://react.dev' target='_blank' rel='noopener noreferrer'>
           <img src={reactLogo} className='logo react' alt='React logo' />
         </a>
       </div>

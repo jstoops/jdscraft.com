@@ -26,3 +26,8 @@ dist-ssr
 # wrangler files
 .wrangler
 .dev.vars
+
+# tests
+test-results
+playwright-report
+blob-report
