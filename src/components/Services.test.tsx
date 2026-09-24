@@ -33,6 +33,21 @@ describe('Services', () => {
       ),
     ).toBeInTheDocument();
     expect(
+      screen.getByText(
+        'Write AI policies for acceptable use, data handling, and accountability',
+      ),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        'Develop security plans for safely adopting and operating AI systems',
+      ),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        'Facilitate AI governance committees so leadership can review risk and approve use',
+      ),
+    ).toBeInTheDocument();
+    expect(
       screen.getByText('Retrieval-Augmented Generation (RAG) pipeline development'),
     ).toBeInTheDocument();
     expect(

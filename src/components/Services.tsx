@@ -49,6 +49,18 @@ export default function Services() {
                   Deliver an AI adoption plan with key performance indicators
                   (KPIs) to measure success
                 </li>
+                <li>
+                  Write AI policies for acceptable use, data handling, and
+                  accountability
+                </li>
+                <li>
+                  Develop security plans for safely adopting and operating AI
+                  systems
+                </li>
+                <li>
+                  Facilitate AI governance committees so leadership can review
+                  risk and approve use
+                </li>
               </ul>
             </div>
           </div>
