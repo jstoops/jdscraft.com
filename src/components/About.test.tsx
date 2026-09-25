@@ -19,7 +19,7 @@ describe('About', () => {
     expect(screen.getByText('IT Consultant')).toHaveClass('subheading');
     expect(
       screen.getByText(
-        'Over 28 years in IT developing technical solutions and over 10 years experience as an IT leader.',
+        'Over 28 years in IT developing technical solutions and over 10 years of experience as an IT leader.',
       ),
     ).toBeInTheDocument();
   });
@@ -33,7 +33,7 @@ describe('About', () => {
     ).toBeInTheDocument();
     expect(
       screen.getByText(
-        'fullstack development, LLM/ML/Data engineering, software architecture',
+        'full-stack development, LLM/ML/data engineering, software architecture',
       ),
     ).toBeInTheDocument();
   });

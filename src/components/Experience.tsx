@@ -49,13 +49,13 @@ export default function Experience() {
                   <b>Operational Processes:</b> I led the various workstreams to
                   integrate the operational processes with the modern API,
                   ingestion pipeline, enterprise service bus (ESB), and
-                  operation data store (ODS) data stack. Technology: MuleSoft
+                  operational data store (ODS) data stack. Technology: MuleSoft
                   apps, S3, AWS SNS, AWS SQS, ActiveMQ, Anypoint MQ, MongoDB.
                 </li>
                 <li>
                   <b>Analytics Data:</b> Re-engineer the flight data ingestion
-                  pipelines to feeds the data analytics stack. Technology:
-                  Snowflake, Airflow, python, DBT.
+                  pipeline to feed the data analytics stack. Technology:
+                  Snowflake, Airflow, Python, DBT.
                 </li>
                 <li>
                   <b>Consumption:</b> Provide operation dashboards of near
@@ -78,7 +78,7 @@ export default function Experience() {
                 secure, highly available services for the Kiosk, Web, and Mobile
                 channels supporting capabilities such as Ticket Enterprise Data
                 Store (TEDS), Enterprise File Gateway (EFG), Self-Service
-                Checkin (SSC), Shopping and Flight Status. Leading a team of
+                Check-in (SSC), Shopping, and Flight Status. Leading a team of
                 software developers and technical analysts to build quality
                 systems, improve development processes, develop effective hiring
                 processes and onboarding programs for SDE job family, retain
@@ -89,7 +89,7 @@ export default function Experience() {
               <ul>
                 <li>
                   <b>SSCI:</b> Led the team designing and developing the
-                  services that deliver the Self-Service Checkin capabilities
+                  services that deliver the Self-Service Check-in capabilities
                   delivering a platform of common capabilities, processes, and
                   tools by documenting the development process, best practices,
                   and integration patterns used.
@@ -133,7 +133,7 @@ export default function Experience() {
               <ul>
                 <li>
                   <b>HawaiianAirlines.com E-commerce Payments Team:</b> Within
-                  the first couple of months od starting at Hawaiian Airlines I
+                  the first couple of months of starting at Hawaiian Airlines, I
                   had turned the Payment team around from fixing bugs 90% of the
                   time to just working on new features by refactoring all the
                   code to achieve 100+% unit test coverage to detect regression
@@ -199,7 +199,7 @@ export default function Experience() {
                   property marketing sites designed for HTML5 and CSS3
                   integrated with RRS and partners through Web services, REST
                   and XML feeds with identity management. The previous version
-                  of RRS I built using PHP, MySQL, XML feeds and JQuery used by
+                  of RRS I built using PHP, MySQL, XML feeds, and jQuery used by
                   property management companies to compete with VRBO in 2009.
                 </li>
                 <li>
@@ -312,8 +312,8 @@ export default function Experience() {
               </h3>
               <div className='subheading mb-3'>Tetra Tech, Inc.</div>
               <p>
-                Led the analysis and design for U.S. Environment Protection
-                Agency (USEPA), U.S. Navy, Department of Energy (DOE) and State
+                Led the analysis and design for the U.S. Environmental Protection
+                Agency (USEPA), U.S. Navy, Department of Energy (DOE), and State
                 Water Board projects. Technical lead and developer for all .NET
                 and SharePoint projects, ensuring timely delivery of development
                 tasks.
@@ -346,10 +346,10 @@ export default function Experience() {
                 or constraints.
               </p>
               <p>
-                I was responsible for tracking, and communicating project
-                progress to the client, the project manager and other key
-                project stakeholders, mentoring junior analysts, leading the
-                development on .NET projects and training the users how to use
+                I was responsible for tracking and communicating project
+                progress to the client, the project manager, and other key
+                project stakeholders, mentoring junior analysts, leading
+                development on .NET projects, and training users to use
                 the new system once installed onsite. I ensured the software
                 complied with and met all client requirements and quality
                 metrics by demonstrating full traceability through to
@@ -441,15 +441,15 @@ export default function Experience() {
                   </b>{' '}
                   technical lead implementing the office’s Intranet site built
                   using Microsoft Office SharePoint Server 2007 (MOSS 2007)
-                  which includes documents libraries, Wikis for knowledge bases,
+                  which includes document libraries, Wikis for knowledge bases,
                   custom views of lists using Web services, custom XML and XSLT
-                  data views, and custom workflows for projects. Techncial Lead
+                  data views, and custom workflows for projects. Technical Lead
                   and developer planning, designing, building, and
-                  administrating SharePoint site and subsites.
+                  administering the SharePoint site and subsites.
                 </li>
                 <li>
                   <b>
-                    eNOI eReporting for United States Environment Protection
+                    eNOI eReporting for the United States Environmental Protection
                     Agency (USEPA) Office of Waste Management (OWM):
                   </b>{' '}
                   lead analyst and designer for the eReporting module which is
@@ -463,9 +463,9 @@ export default function Experience() {
                   compatible techniques to design business process workflow, use
                   cases and scenarios, logical data models and documentation of
                   non-functional requirements. The design was documented in the
-                  form of diagrams compliant with latest UML. Ensured electronic
+                  form of diagrams compliant with the latest UML. Ensured electronic
                   signatures and permit encryption complied with Cross-Media
-                  Electronic Reporting Rule (CROMERR) check list standards.
+                  Electronic Reporting Rule (CROMERR) checklist standards.
                 </li>
                 <li>
                   <b>
@@ -577,7 +577,7 @@ export default function Experience() {
               <h3 className='mb-0'>Technical Director / Developer</h3>
               <div className='subheading mb-3'>Koala Tree, LLC</div>
               <p>
-                Running my own software development company doing my ownh
+                Running my own software development company and doing my own
                 bookkeeping and accounting. Worked as a contractor for various
                 government and commercial contracts, including:
               </p>
@@ -626,12 +626,12 @@ export default function Experience() {
                   <b>
                     Greenerfutures for the Peterborough Environment City Trust:
                   </b>{' '}
-                  webiste that provided analysis of key stage 1 & 2 data on
+                  website that provided analysis of Key Stage 1 and 2 data on
                   their education portal using JavaServer Pages (JSP) and MySQL.
                 </li>
                 <li>
                   <b>Stock exchange utility for Regisdata:</b> updated stock
-                  quotations on daily basis and exported specified fields to be
+                  quotations on a daily basis and exported specified fields to be
                   uploaded to website and sent to clients. Automating file
                   creation from Microsoft Access database was achieved using
                   Visual Basic for Applications (VBA), also detected spikes in
@@ -640,9 +640,9 @@ export default function Experience() {
                 <li>
                   <b>Listencloser music portal:</b> my own custom built online
                   portal that provided free web pages, audio streaming and
-                  online promotion for bands, DJ’s and solo artist of all music
-                  genres and trained staff in website development and to
-                  administer it, validate HTML code, and meeting accessibility
+                  online promotion for bands, DJs, and solo artists of all music
+                  genres and trained staff in website development, administering
+                  it, validating HTML code, and meeting accessibility
                   guidelines. Trained bands and DJs to use Cakewalk digital
                   audio workstation (DAW) software package to practice recording
                   and mixing themselves for a single to be recorded in a studio
@@ -687,7 +687,7 @@ export default function Experience() {
                     :
                   </b>{' '}
                   worked with Technical Director to set up Reddot Content
-                  Managment System (CMS) for users to manage public Web site and
+                  Management System (CMS) for users to manage the public Web site and
                   used ASP, Access and JavaScript to implement custom education
                   games to entertain children coming onsite for a school trip or
                   with the family.
@@ -727,7 +727,7 @@ export default function Experience() {
                     Web site review desktop application for Bishop Fleming and
                     UK Online:
                   </b>{' '}
-                  initially developed for Nurea Ltd. as a contrtactor before
+                  initially developed for Nurea Ltd. as a contractor before
                   becoming a full-time employee (see experience below) then
                   updated for accountant’s Bishop Fleming and UK Online to
                   include the latest recommendations in meeting accessibility

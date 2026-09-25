@@ -30,12 +30,12 @@ describe('Projects', () => {
     expect(screen.getByText('Modern Web Apps')).toHaveClass('subheading');
   });
 
-  it('renders a card and Github link for each published project', () => {
+  it('renders a card and GitHub link for each published project', () => {
     render(<Projects />);
     for (const project of projectCards) {
       expect(screen.getByRole('heading', { level: 5, name: project.title })).toBeInTheDocument();
     }
-    const githubLinks = screen.getAllByRole('link', { name: 'Github' });
+    const githubLinks = screen.getAllByRole('link', { name: 'GitHub' });
     expect(githubLinks.map((link) => link.getAttribute('href'))).toEqual(
       projectCards.map((project) => project.href),
     );

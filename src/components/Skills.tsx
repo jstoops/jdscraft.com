@@ -356,7 +356,7 @@ export default function Skills() {
           <ul>
             <li>
               <strong>Programming Languages</strong>: Python, Java, C#, C++,
-              JavaScript, TypeScript, JQuery, SQL, PHP, Visual Basic, JSP, PERL,
+              JavaScript, TypeScript, jQuery, SQL, PHP, Visual Basic, JSP, Perl,
               Pascal, Delphi
             </li>
             <li>
@@ -381,20 +381,19 @@ export default function Skills() {
             <li>
               <strong>Frameworks</strong>: Anaconda, .NET, React, Next.js,
               NextAuth, Express.js, HuggingFace, LangChain, LangGraph,
-              LangSmith, LlambaIndex, Znode, ASP.NET, AspDotNetStorefront,
+              LangSmith, LlamaIndex, Znode, ASP.NET, AspDotNetStorefront,
               Drupal, Joomla, WordPress, RedDot, Unity3D, Entity Framework,
               Jest, PyTest, xUnit, Nunit, MSTest, Munit, AJAX, ColdFusion
             </li>
             <li>
-              <strong>Models</strong>: Google's Gemini 1.5-2 Flash & Gemma,
-              OpenAI's GPT-4o, Dall-E-3 & TTS-1, Meta's Llama 2-3, Anthropic's
-              Claude 3.5 Sonnet , DeepSeek 3, Microsoft's Phi-3, Alibaba's Qwen2
-              & CodeQwen 1.5 Chat, BigCode's Starcoder 2, Mistral's Mixtral
+              <strong>Models</strong>: Google's Gemini, OpenAI's GPT, DALL-E
+              & TTS, Meta's Llama, Anthropic's Claude, DeepSeek, Microsoft's
+              Phi-3, Alibaba's Qwen, BigCode's Starcoder, Mistral's Mixtral
             </li>
             <li>
               <strong>Cloud & Hosting Platforms</strong>: Modal, Amazon Web
               Services (AWS), Microsoft Azure, Google Cloud Platform (GCP),
-              Snowflake, Databricks, CloudFlare, LlambaCloud, Google Colab,
+              Snowflake, Databricks, Cloudflare, LlamaCloud, Google Colab,
               Anypoint Platform, Render, Vercel, Digital Ocean, Bluehost,
               GoDaddy, IONOS, SiteGround, Shopify, Acquia
             </li>
@@ -406,7 +405,7 @@ export default function Skills() {
             <li>
               <strong>Waterfall</strong>: used on projects that have a clearly
               defined set of requirements and fixed scope, such as replacing or
-              upgrading off-the-shelf systems that have a fixed cut over date.
+              upgrading off-the-shelf systems that have a fixed cutover date.
             </li>
             <li>
               <strong>Agile</strong>: used when the technical stack, design
@@ -423,13 +422,13 @@ export default function Skills() {
               building, testing, and stabilizing the core architecture first
               because not having a solid architecture is a common high risk. A
               solution with real business value is delivered to get early
-              feedback, metrics for KPIs to determine if to continue and
+              feedback, metrics for KPIs to determine whether to continue, and
               includes design, runbooks (ops support playbooks) and monitoring.
             </li>
             <li>
               <strong>Vibing</strong>: creating solutions with AI at any stage
-              of the product development and makes a great coding partner for
-              rapid prototyping of ideas or getting initial MVS (minimum viable
+              of product development and makes a great coding partner for rapid
+              prototyping of ideas or creating an initial MVS (minimum viable
               skeleton).
             </li>
           </ul>

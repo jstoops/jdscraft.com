@@ -7,9 +7,9 @@ export default function Education() {
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h3 className="mb-0">Colorado Technical University Online</h3>
-              <div className="subheading mb-3">Completed first 2 courses of the MSM Business Management program.</div>
+              <div className="subheading mb-3">Completed the first two courses of the MSM Business Management program.</div>
               <div>Accredited by the Higher Learning Commission and a member of the North Central Association.</div>
-              <p>Gained a 4.0 GPA on all courses completed (e-Business Strategies and Leadership)</p>
+              <p>Earned a 4.0 GPA in both completed courses (e-Business Strategies and Leadership).</p>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">August 2005 - January 2006</span>
@@ -23,9 +23,9 @@ export default function Education() {
               <div className="subheading mb-3">
                 B.S. (Hons), Software Engineering Management
               </div>
-              <p>Accredited by the British Computer Society with 1 year in Industrial Placement (see 1998-1999 Experience).</p>
-              <p>Specialized in: Artificial Intelligence (AI) and Distributed Object Computing.</p>
-              <p>Other subjects: Requirements Engineering, Software Design, Development & Implementation, Systems Architecture, Databases, Computing Law, Mathematics, Human-Computer Interaction, Business Management, and Accounting.</p>
+              <p>Accredited by the British Computer Society, with one year of industrial placement (see 1998-1999 Experience).</p>
+              <p>Specialized in artificial intelligence (AI) and distributed object computing.</p>
+              <p>Other subjects included requirements engineering, software design, development and implementation, systems architecture, databases, computing law, mathematics, human-computer interaction, business management, and accounting.</p>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">September 1996 - June 2000</span>
@@ -39,7 +39,7 @@ export default function Education() {
               <div className="subheading mb-3">
                 3 A-Levels, 1 AS-Level and 8 GCSE qualifications
               </div>
-              <p>A-Levels: Computer Science, Mathematics, Graphical and Architectural Design (equivalent to APs, Collegeboard Advanced Placement, exams in the US).</p>
+              <p>A-Levels: Computer Science, Mathematics, Graphical and Architectural Design (equivalent to AP, or College Board Advanced Placement, exams in the US).</p>
               <p>AS-Level: General Studies (equivalent to AP exams in the US).</p>
               <p>GCSE: Computer Studies, Mathematics, English Language and Literature, Science, Graphical Design, Art and Design, Geography (equivalent to a high school diploma in the US).</p>
             </div>

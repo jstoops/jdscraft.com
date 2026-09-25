@@ -5,18 +5,27 @@ export default function Services() {
         <div className='resume-section-content'>
           <h2 className='mb-3'>AI &amp; LLM Services</h2>
           <p>
-            I have experience transforming businesses with IT and integrating AI
-            to streamline business processes and autonomously execute tasks on
-            the users behalf.
+            I have experience transforming businesses with IT, building AI
+            products, and integrating AI to streamline business processes
+            and autonomously execute tasks on users' behalf in a safe,
+            secure manner for highly regulated industries.
           </p>
           <p>
             This is achieved by selecting technology that aligns with the
-            business and IT strategy. Once a AI adoption plan is in place I then
-            applying good engineering practices to developing, fine-tuning,
-            rigorously testing, and either deploying specially trained
-            open-source large language models (LLMs) to the cloud or safely
-            utilizing frontier LLMs using best practices in software engineering
-            design, security, data privacy and coding principles.
+            business and IT strategy. Once an AI adoption plan is in place, I
+            apply a well-thought-out AI architecture with control planes to
+            approve and govern AI solutions.
+          </p>
+          <p>
+            This involves securely enabling embedded vendor AI solutions,
+            identity controls and data governance for employee AI workspaces
+            (enterprise AI chat assistance), applying good engineering practices
+            to developing, fine-tuning, rigorously testing, and either deploying
+            specially trained open-source large language models (LLMs) to the
+            cloud, or to local data centers, and safely utilizing frontier LLMs.
+            All using best practices in software engineering design, automated
+            deployment, AI security, continuous observability for AI eval and
+            drift detection, data privacy and coding principles.
           </p>
           <p>
             This delivers accurate and actionable insights for the business and
@@ -28,8 +37,8 @@ export default function Services() {
               <p>
                 Analyze business processes and understand the business and IT
                 strategy to identify where AI can best provide a
-                return-on-investment (ROI) to your unique way of doing business,
-                the competition in the market place, and the technology stack
+                return on investment (ROI) for your unique way of doing business,
+                the competition in the marketplace, and the technology stack
                 you have.
               </p>
               <ul>
@@ -80,8 +89,8 @@ export default function Services() {
                 </li>
                 <li>
                   Create an expert knowledge worker AI assistant trained on your
-                  business integrated with your productivity tools for your
-                  staff use on every day tasks
+                  business and integrated with your productivity tools for your
+                  staff to use for everyday tasks
                 </li>
                 <li>
                   Build AI agents to automate business processes, generate
