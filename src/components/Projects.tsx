@@ -141,7 +141,7 @@ export default function Projects() {
                   )}
                 </Item>
                 <Item
-                  caption='Airline AI Assistant that can take a customer through the entire booking and checkin process'
+                  caption='Airline AI Assistant that can take a customer through the entire booking and check-in process'
                   original='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
                   thumbnail='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
                   width='1229'
@@ -152,7 +152,7 @@ export default function Projects() {
                       ref={ref}
                       onClick={open}
                       src='img/LLM-Engineer-Lab-Airline-AI-Assistant-Ticket-Book-Checkin-Tools.jpg'
-                      alt='Airline AI Assistant that can take a customer through the entire booking and checkin process'
+                      alt='Airline AI Assistant that can take a customer through the entire booking and check-in process'
                     />
                   )}
                 </Item>
@@ -273,9 +273,9 @@ export default function Projects() {
                 <h5 className='card-title'>LLM Engineering Lab</h5>
                 <p>
                   Data scientist lab setup in Anaconda using JupyterLab to
-                  experiment in creating AI agents in python using various Open
+                  experiment in creating AI agents in Python using various open
                   Source and Frontier LLM models. Projects include brochure
-                  generation, language translation, function calling and
+                  generation, language translation, function calling, and
                   multi-modal techniques.
                 </p>
                 <a
@@ -284,7 +284,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -426,10 +426,11 @@ export default function Projects() {
               <div className='card-body'>
                 <h5 className='card-title'>Product Pricing Agent</h5>
                 <p>
-                  7 Agents collaborating in a custom AI Agentic framework:
-                  GTP-4o identifies deals from RSS feed, fine-tuned model
-                  estimates prices, a massive RAG vectorstore, messaging agent
-                  sends push notifications, and planning agent to coordinate.
+                  Seven agents collaborate in a custom AI agentic framework:
+                  GPT-4o identifies deals from an RSS feed, a fine-tuned model
+                  estimates prices, a massive RAG vector store stores product
+                  data, a messaging agent sends push notifications, and a
+                  planning agent coordinates the workflow.
                 </p>
                 <a
                   href='https://github.com/jstoops/product-pricing-agent'
@@ -437,7 +438,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -476,7 +477,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -568,7 +569,7 @@ export default function Projects() {
               <div className='card-body'>
                 <h5 className='card-title'>Blog Standard AI SaaS</h5>
                 <p>
-                  Next.js & Open AI / GPT apps using MongoDB, Auth0, & Stripe to
+                  Next.js and OpenAI/GPT apps using MongoDB, Auth0, and Stripe to
                   purchase tokens used to generate blog posts & SEO friendly
                   titles targeting keywords using OpenAI API.
                 </p>
@@ -578,7 +579,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -704,11 +705,11 @@ export default function Projects() {
               <div className='card-body'>
                 <h5 className='card-title'>AI Agents</h5>
                 <p>
-                  Uses OpenAIs GPT LLM to create blog posts, write scripts for
-                  YouTube videos, titles for social media posts, research Web
-                  about a lead, writes emails, load documents into a vector
-                  databases to use for providing detailed knowledge, analyze
-                  finances & stocks, visualize data, etc.
+                  Uses OpenAI's GPT LLM to create blog posts, write scripts for
+                  YouTube videos, create titles for social media posts, research
+                  the web for leads, write emails, load documents into vector
+                  databases for detailed knowledge, analyze finances and stocks,
+                  and visualize data.
                 </p>
               </div>
             </div>
@@ -1019,7 +1020,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -1058,7 +1059,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>
@@ -1096,7 +1097,7 @@ export default function Projects() {
                   rel='noopener noreferrer'
                   className='btn btn-primary'
                 >
-                  Github
+                  GitHub
                 </a>
               </div>
             </div>

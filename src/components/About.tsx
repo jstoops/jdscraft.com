@@ -19,11 +19,11 @@ export default function About() {
         <div className='subheading mb-3'>IT Consultant</div>
         <p className='lead'>
           Over {itYear} years in IT developing technical solutions and over{' '}
-          {leaderYear} years experience as an IT leader.
+          {leaderYear} years of experience as an IT leader.
         </p>
         <p className='lead'>
-          I am experienced in building and architecting enterprise level
-          software in the cloud, leading, mentoring and developing agile
+          I am experienced in building and architecting enterprise-level
+          software in the cloud, leading, mentoring, and developing agile
           development teams, and aligning business and IT strategies with
           technology and architectural roadmaps.
         </p>
@@ -31,20 +31,20 @@ export default function About() {
           I specialize in leading IT departments through transforming their
           aging IT infrastructure and outdated software development practices
           into cost-effective IT departments using modern technology,
-          engineering practices and design principles aligned with the business
+          engineering practices, and design principles aligned with the business
           and IT strategic objectives, and optimized development processes
-          enhanced with GenAI.
+          enhanced with AI.
         </p>
         <div className='subheading mb-3'>What I enjoy:</div>
         <ul>
           <li>leading the transformation of IT organizations</li>
-          <li>developing high performing technical teams</li>
+          <li>developing high-performing technical teams</li>
           <li>
             integrating AI into development, operations, and business processes
           </li>
           <li>
-            embracing disruptive technologies, managing innovations, and
-            applying them
+            embracing disruptive technologies, managing innovation, and
+            applying it
           </li>
         </ul>
         <div className='subheading mb-3'>What I have experience doing:</div>
@@ -65,7 +65,7 @@ export default function About() {
             negotiating with leadership realistic timelines that deliver value
           </li>
           <li>
-            mentoring and couching technical personnel into leaders, high
+            mentoring and coaching technical personnel into leaders, high
             performers and senior engineers
           </li>
           <li>
@@ -77,7 +77,7 @@ export default function About() {
             and processes
           </li>
           <li>
-            fullstack development, LLM/ML/Data engineering, software
+            full-stack development, LLM/ML/data engineering, software
             architecture
           </li>
         </ul>
