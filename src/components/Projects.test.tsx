@@ -15,6 +15,10 @@ const projectCards = [
     title: 'AI Voice Assistant',
     href: 'https://github.com/jstoops/ai-voice-assistant',
   },
+  {
+    title: 'Kanban Studio AI Project Management',
+    href: 'https://github.com/jstoops/pm',
+  },
   { title: 'Blog Standard AI SaaS', href: 'https://github.com/jstoops/blog-standard' },
   { title: 'PropertyPulse', href: 'https://github.com/jstoops/next-property' },
   { title: 'Prostore', href: 'https://github.com/jstoops/prostore' },

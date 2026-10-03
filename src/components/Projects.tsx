@@ -487,62 +487,58 @@ export default function Projects() {
             >
               <Gallery withCaption>
                 <Item
-                  original='img/Rental-Investment-Chatbot-3.jpg'
-                  thumbnail='img/Rental-Investment-Chatbot-3.jpg'
-                  width='1489'
-                  height='1229'
+                  caption='Kanban board with an AI assistant that summarizes the project and moves cards on request'
+                  original='img/AI-Coding-PM-Kanban-Board.jpg'
+                  thumbnail='img/AI-Coding-PM-Kanban-Board.jpg'
+                  width='2516'
+                  height='1275'
                 >
                   {({ ref, open }) => (
                     <img
                       className='gallery-cover'
                       ref={ref}
                       onClick={open}
-                      src='img/Rental-Investment-Chatbot-3.jpg'
-                      alt='Rental Investment Chatbot 3'
+                      src='img/AI-Coding-PM-Kanban-Board.jpg'
+                      alt='Kanban board with an AI assistant that summarizes the project and moves cards on request'
                     />
                   )}
                 </Item>
                 <Item
-                  original='img/Rental-Investment-Chatbot-2.jpg'
-                  thumbnail='img/Rental-Investment-Chatbot-2.jpg'
-                  width='907'
-                  height='842'
+                  caption='Sign-in page secured with Argon2id password hashing and signed session cookies'
+                  original='img/AI-Coding-PM-Login.jpg'
+                  thumbnail='img/AI-Coding-PM-Login.jpg'
+                  width='1127'
+                  height='795'
                 >
                   {({ ref, open }) => (
                     <img
                       ref={ref}
                       onClick={open}
-                      src='img/Rental-Investment-Chatbot-2.jpg'
-                      alt='Rental Investment Chatbot 2'
-                    />
-                  )}
-                </Item>
-                <Item
-                  original='img/Rental-Investment-Chatbot-1.jpg'
-                  thumbnail='img/Rental-Investment-Chatbot-1.jpg'
-                  width='1696'
-                  height='1070'
-                >
-                  {({ ref, open }) => (
-                    <img
-                      ref={ref}
-                      onClick={open}
-                      src='img/Rental-Investment-Chatbot-1.jpg'
-                      alt='Rental Investment Chatbot 1'
+                      src='img/AI-Coding-PM-Login.jpg'
+                      alt='Sign-in page secured with Argon2id password hashing and signed session cookies'
                     />
                   )}
                 </Item>
               </Gallery>
               <div className='card-body'>
                 <h5 className='card-title'>
-                  Rental Investment Chatbot AI Agent Chatbot
+                  Kanban Studio AI Project Management
                 </h5>
                 <p>
-                  This RAG chatbot uses a local LLM to embed a document on
-                  rental investing in a vector database and then a conversation
-                  QA chain to answer questions using it and embedded in
-                  PropertyPulse.
+                  Kanban boards with an AI assistant in a single Docker
+                  container: a static Next.js frontend served by FastAPI over
+                  SQLite. The assistant runs openai/gpt-oss-120b via OpenRouter
+                  and creates, edits and moves cards through validated
+                  operations applied in one transaction.
                 </p>
+                <a
+                  href='https://github.com/jstoops/pm'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn btn-primary'
+                >
+                  GitHub
+                </a>
               </div>
             </div>
             <div
