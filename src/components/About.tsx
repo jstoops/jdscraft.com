@@ -1,4 +1,4 @@
-function calculateYears(startDate) {
+function calculateYears(startDate: string) {
   const today = new Date();
   const pastDate = new Date(startDate);
   return today.getFullYear() - pastDate.getFullYear();
