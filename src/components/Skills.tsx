@@ -403,17 +403,17 @@ export default function Skills() {
           </div>
           <ul>
             <li>
-              <strong>Waterfall</strong>: used on projects that have a clearly
-              defined set of requirements and fixed scope, such as replacing or
-              upgrading off-the-shelf systems that have a fixed cutover date.
+            <strong>Waterfall</strong>: I use this on projects with clearly
+            defined requirements and fixed scope, such as replacing or
+            upgrading off-the-shelf systems with a fixed cutover date.
             </li>
             <li>
-              <strong>Agile</strong>: used when the technical stack, design
-              patterns and architecture are in place and a firm foundation is in
-              production that can be iterated on to deliver new features.
+            <strong>Agile</strong>: I use this when the technical stack,
+            design patterns and architecture are in place, and a firm
+            production foundation can be iterated on to deliver new features.
             </li>
             <li>
-              <strong>Pragmatic agile</strong>: design a solution using a
+            <strong>Pragmatic agile</strong>: I design a solution using a
               combination of risk-driven and client-driven iterative planning.
               The MVP (minimum viable product), or beachhead app, has a fixed
               scope that delivers features the business most cares about and
@@ -426,24 +426,31 @@ export default function Skills() {
               includes design, runbooks (ops support playbooks) and monitoring.
             </li>
             <li>
-              <strong>Vibe coder</strong>: Andrej Karpathy's term, often taken
-              to mean the amateurish end of the approach, where you let the AI
-              run and then throw the result away if it does not work, or just
-              try again. Used that way it is still a great coding partner for
-              rapid prototyping of ideas or creating an initial MVS (minimum
-              viable skeleton). Some people treat vibe coding as the name for
-              this whole field.
+              <strong>Vibe Coding</strong>: I use AI as a coding partner at any
+              stage of product development, especially to rapidly prototype
+              ideas, create an initial MVS (minimum viable skeleton), or build
+              MVPs and boilerplate when I can accept rework. This is the YOLO
+              approach: let the agent take a broad first pass, then iterate or
+              start over if the result is not proven to work. Andrej
+              Karpathy's term; some people use it for all AI-assisted
+              development.
             </li>
             <li>
-              <strong>Vibe engineer</strong>: Simon Willison's term for the
-              professional side of it, actually building software as a
-              professional but using AI agents to do the work.
+              <strong>Vibe Engineering</strong>: I use this professional,
+              hands-on approach for mission-critical software, large codebases
+              and highly innovative work. I manage the agent closely, approve
+              its work and reset when needed, following a plan, execute,
+              review and test cycle until the code is proven to work. Simon
+              Willison's term for professional engineering with AI agents.
             </li>
             <li>
-              <strong>Agentic coder</strong>: using these tools the way an
-              expert does, treating an agent such as the Cursor agent as a
-              sidekick to collaborate with on building a product together, and
-              coordinating several agents at once where that pays off.
+              <strong>Agentic Coding</strong>: I use agents as collaborators
+              for bounded work with clear goals and checks: a sidekick for
+              interactive tasks, Ralph-style loops for iterative execution, or
+              a swarm for work that can be split and orchestrated. I use
+              spec-driven development and trust-but-verify for large or novel
+              systems, and allow more autonomy on lower-risk MVPs and new
+              builds.
             </li>
           </ul>
           <div className='subheading mb-3'>Summary</div>

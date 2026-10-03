@@ -33,9 +33,9 @@ describe('Skills', () => {
       'Waterfall',
       'Agile',
       'Pragmatic agile',
-      'Vibe coder',
-      'Vibe engineer',
-      'Agentic coder',
+      'Vibe Coding',
+      'Vibe Engineering',
+      'Agentic Coding',
     ]) {
       expect(screen.getByText(approach)).toBeInTheDocument();
     }
