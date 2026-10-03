@@ -15,11 +15,9 @@ import {
 import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
-export default function Projects() {
+export function ProjectsContent() {
   return (
-    <div>
-      <section className='resume-section' id='projects'>
-        <div className='resume-section-content projects'>
+    <div className='resume-section-content projects'>
           <h2 className='mb-1'>Projects</h2>
           <div className='subheading mb-2'>AI Agents</div>
           <p>
@@ -1098,7 +1096,15 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </div>
+    </div>
+  );
+}
+
+export default function Projects() {
+  return (
+    <div>
+      <section className='resume-section' id='projects'>
+        <ProjectsContent />
       </section>
       <hr className='m-0' />
     </div>
