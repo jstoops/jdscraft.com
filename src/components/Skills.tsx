@@ -426,10 +426,24 @@ export default function Skills() {
               includes design, runbooks (ops support playbooks) and monitoring.
             </li>
             <li>
-              <strong>Vibing</strong>: creating solutions with AI at any stage
-              of product development and makes a great coding partner for rapid
-              prototyping of ideas or creating an initial MVS (minimum viable
-              skeleton).
+              <strong>Vibe coder</strong>: Andrej Karpathy's term, often taken
+              to mean the amateurish end of the approach, where you let the AI
+              run and then throw the result away if it does not work, or just
+              try again. Used that way it is still a great coding partner for
+              rapid prototyping of ideas or creating an initial MVS (minimum
+              viable skeleton). Some people treat vibe coding as the name for
+              this whole field.
+            </li>
+            <li>
+              <strong>Vibe engineer</strong>: Simon Willison's term for the
+              professional side of it, actually building software as a
+              professional but using AI agents to do the work.
+            </li>
+            <li>
+              <strong>Agentic coder</strong>: using these tools the way an
+              expert does, treating an agent such as the Cursor agent as a
+              sidekick to collaborate with on building a product together, and
+              coordinating several agents at once where that pays off.
             </li>
           </ul>
           <div className='subheading mb-3'>Summary</div>

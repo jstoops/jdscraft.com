@@ -29,7 +29,14 @@ describe('Skills', () => {
         'Software Development Life Cycles (SDLC) and Development Approaches',
       ),
     ).toHaveClass('subheading');
-    for (const approach of ['Waterfall', 'Agile', 'Pragmatic agile', 'Vibing']) {
+    for (const approach of [
+      'Waterfall',
+      'Agile',
+      'Pragmatic agile',
+      'Vibe coder',
+      'Vibe engineer',
+      'Agentic coder',
+    ]) {
       expect(screen.getByText(approach)).toBeInTheDocument();
     }
     expect(screen.getByText('Summary')).toHaveClass('subheading');
